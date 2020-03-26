@@ -19,7 +19,7 @@
             <router-link class="inlineBlock" to="/setting">系统设置</router-link>
           </el-dropdown-item>
           <el-dropdown-item>
-            <a href="https://github.com/mingeminge/major-onepunch" target="_blank">GitHub</a>
+            <a href="https://github.com/mingeminge/onepunch" target="_blank">GitHub</a>
           </el-dropdown-item>
           <el-dropdown-item divided>
             <span style="display:block;" @click="logout">退出登录</span>

@@ -61,7 +61,7 @@ export const constantRouterMap = [
     iFrame: false,
     children: [
       {
-        path: 'https://github.com/mingeminge/major-onepunch',
+        path: 'https://github.com/mingeminge/onepunch',
         meta: {title: 'GitHub', icon: 'github'}
       }
     ]
