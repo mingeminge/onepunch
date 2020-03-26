@@ -1,0 +1,8 @@
+/Users/yizuomin/code/yadminparent/loging/src/main/java/com/yzm/loging/entity/SystemLog.java
+/Users/yizuomin/code/yadminparent/loging/src/main/java/com/yzm/loging/aop/LogAspect.java
+/Users/yizuomin/code/yadminparent/loging/src/main/java/com/yzm/loging/controller/SystemLogController.java
+/Users/yizuomin/code/yadminparent/loging/src/main/java/com/yzm/loging/service/SystemLogService.java
+/Users/yizuomin/code/yadminparent/loging/src/main/java/com/yzm/loging/service/impl/SystemLogServiceImpl.java
+/Users/yizuomin/code/yadminparent/loging/src/main/java/com/yzm/loging/query/SystemLogQuery.java
+/Users/yizuomin/code/yadminparent/loging/src/main/java/com/yzm/loging/annotation/LogAnnotation.java
+/Users/yizuomin/code/yadminparent/loging/src/main/java/com/yzm/loging/mapper/SystemLogMapper.java

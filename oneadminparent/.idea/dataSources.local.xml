@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="dataSourceStorageLocal">
+    <data-source name="@132.122.152.70" uuid="b6c41dfb-757c-4c5a-a1d6-87cf1f28a76c">
+      <database-info product="" version="" jdbc-version="" driver-name="" driver-version="" family="ORACLE" exact-version="0.0" />
+      <secret-storage>master_key</secret-storage>
+      <first-sync>true</first-sync>
+      <user-name>gdtec</user-name>
+    </data-source>
+  </component>
+</project>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.yzm.system.mapper.IndexMapper">
+
+    <select id="getLoginInfo" resultType="java.util.Map">
+        SELECT count( distinct ip) ipCount,count(id) loginCount FROM yc_login_log
+    </select>
+
+    <select id="getLoginChart" resultType="com.yzm.system.service.dto.ChartDto">
+        SELECT
+        A.count count,
+        IFNULL(B.count,0) user,
+        DATE_FORMAT(A.login_time,'%Y-%m-%d') time
+        FROM
+        (
+        SELECT
+        COUNT( * ) count,
+        login_time
+        FROM
+        yc_login_log
+        WHERE
+        DATE_SUB( CURDATE( ), INTERVAL 30 DAY ) &lt;= login_time
+        GROUP BY
+        DATE_FORMAT( login_time, '%Y-%m-%d' )
+        ) A
+        LEFT JOIN (
+        SELECT
+        COUNT( * ) count,
+        login_time
+        FROM
+        yc_login_log
+        WHERE
+        DATE_SUB( CURDATE( ), INTERVAL 30 DAY ) &lt;= login_time
+        AND username=#{username}
+        GROUP BY
+        DATE_FORMAT( login_time, '%Y-%m-%d' )
+        ) B ON DATE_FORMAT( A.login_time, '%Y-%m-%d' ) = DATE_FORMAT( B.login_time, '%Y-%m-%d' ) order by A.login_time asc
+    </select>
+
+    <select id="getRegionalDistribution" resultType="com.yzm.system.service.dto.ChartDto">
+        SELECT address name,count(address) value FROM yc_login_log GROUP BY address
+    </select>
+</mapper>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.yzm.system.mapper.UserMapper">
+    <resultMap id="Login_User_Map" type="com.yzm.system.entity.User">
+        <id column="id" property="id"/>
+        <result column="account" property="username"/>
+        <result column="password" property="password"/>
+        <result column="phone" property="phone"/>
+        <result column="email" property="email"/>
+        <result column="real_name" property="realName"/>
+        <result column="sex" property="sex"/>
+        <result column="avatar" property="avatar"/>
+        <result column="status" property="status"/>
+        <result column="dept_id" property="deptId"/>
+        <result column="create_time" property="createTime"/>
+        <result property="update_time" column="updateTime"/>
+        <collection property="roles" ofType="com.yzm.system.entity.Role">
+            <id column="roleId" property="id"/>
+            <result column="name" property="name"/>
+            <result column="description" property="description"/>
+            <result column="status" property="status"/>
+            <result column="create_time" property="createTime"/>
+            <result property="update_time" column="updateTime"/>
+            <collection property="menus" ofType="com.yzm.system.entity.Menu">
+                <id column="permissionId" property="id"/>
+                <result column="permissionName" property="name"/>
+                <result column="path" property="path"/>
+                <result column="component" property="component"/>
+                <result column="type" property="type"/>
+                <result column="permission" property="permission"/>
+                <result column="component_name" property="componentName"/>
+                <result column="icon" property="icon"/>
+                <result column="cache" property="cache"/>
+                <result column="hidden" property="hidden"/>
+                <result column="pid" property="pid"/>
+                <result column="i_frame" property="iFrame"/>
+                <result column="create_time" property="createTime"/>
+                <result property="update_time" column="updateTime"/>
+            </collection>
+        </collection>
+    </resultMap>
+    <select id="findByUsername" resultMap="Login_User_Map">
+        SELECT u.id,u.account,u.password,u.phone,u.email,u.real_name,u.sex,u.status,u.dept_id,u.avatar,
+        r.id roleId, r.name ,r.description,r.status,
+        p.id permissionId,p.name permissionName,p.path,p.component,p.type,p.permission,p.component_name, p.icon,p.cache,p.hidden,
+        p.pid,p.i_frame
+        FROM yc_user u
+        LEFT JOIN yc_user_role ur ON u.id=ur.user_id
+        LEFT JOIN yc_role r ON ur.role_id=r.id
+        LEFT JOIN yc_role_menu rp on r.id=rp.role_id
+        LEFT JOIN yc_menu p on rp.menu_id=p.id
+        WHERE u.account=#{username}
+    </select>
+</mapper>
