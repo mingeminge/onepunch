@@ -5,9 +5,9 @@
       <div class="zt-title" :style="{backgroundColor:variables.menuBg}">
         <div
           style="color: #99a9bf;line-height: 50px;font-size: large;font-weight: 600;font-family: Avenir,Helvetica Neue,Arial,Helvetica,sans-serif;">
-          <svg-icon v-if="isCollapse" icon-class="logo" style="margin-right: 0px"></svg-icon>
+          <svg-icon v-if="isCollapse" icon-class="saitama" style="margin-right: 0px"></svg-icon>
           <div v-else>
-            <svg-icon icon-class="logo"></svg-icon>英雄协会
+            <svg-icon icon-class="logo"></svg-icon>ONE PUNCH
           </div>
 
         </div>

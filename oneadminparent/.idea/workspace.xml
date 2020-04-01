@@ -1,7 +1,104 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d14d7043-0c9e-413f-8230-068f6140871a" name="Default Changelist" comment="" />
+    <list default="true" id="d14d7043-0c9e-413f-8230-068f6140871a" name="Default Changelist" comment="部分修改">
+      <change afterPath="$PROJECT_DIR$/../one-ui/src/icons/svg/photo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../one-ui/src/icons/svg/saitama.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../one-ui/src/icons/svg/zone.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../one-ui/src/views/zone/photo/index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/system/src/main/java/com/yzm/system/controller/PhotoAlbumController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/system/src/main/java/com/yzm/system/entity/Photo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/system/src/main/java/com/yzm/system/entity/PhotoAlbum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/system/src/main/java/com/yzm/system/mapper/PhotoAlbumMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/system/src/main/java/com/yzm/system/mapper/PhotoMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/system/src/main/java/com/yzm/system/service/PhotoAlbumService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/system/src/main/java/com/yzm/system/service/PhotoService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/system/src/main/java/com/yzm/system/service/impl/PhotoAlbumServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/system/src/main/java/com/yzm/system/service/impl/PhotoServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../one-ui/src/icons/svg/message.svg" beforeDir="false" afterPath="$PROJECT_DIR$/../one-ui/src/icons/svg/message.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../one-ui/src/layout/components/Sidebar/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../one-ui/src/layout/components/Sidebar/index.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../one-ui/src/router/routers.js" beforeDir="false" afterPath="$PROJECT_DIR$/../one-ui/src/router/routers.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../one-ui/src/views/index/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../one-ui/src/views/index/index.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../one-ui/src/views/login/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../one-ui/src/views/login/index.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../one-ui/src/views/message/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../one-ui/src/views/zone/message/index.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/src/main/resources/application-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/system/src/main/resources/application-dev.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/target/classes/com/yzm/system/SystemApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/system/target/classes/com/yzm/system/SystemApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/target/classes/com/yzm/system/config/CustomExceptionHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/system/target/classes/com/yzm/system/config/CustomExceptionHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/target/classes/com/yzm/system/controller/AvatarController.class" beforeDir="false" afterPath="$PROJECT_DIR$/system/target/classes/com/yzm/system/controller/AvatarController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/target/classes/com/yzm/system/controller/DeptController.class" beforeDir="false" afterPath="$PROJECT_DIR$/system/target/classes/com/yzm/system/controller/DeptController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/target/classes/com/yzm/system/controller/IndexController.class" beforeDir="false" afterPath="$PROJECT_DIR$/system/target/classes/com/yzm/system/controller/IndexController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/target/classes/com/yzm/system/controller/LoginController$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/system/target/classes/com/yzm/system/controller/LoginController$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/target/classes/com/yzm/system/controller/LoginSettingController.class" beforeDir="false" afterPath="$PROJECT_DIR$/system/target/classes/com/yzm/system/controller/LoginSettingController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/target/classes/com/yzm/system/controller/MenuController.class" beforeDir="false" afterPath="$PROJECT_DIR$/system/target/classes/com/yzm/system/controller/MenuController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/target/classes/com/yzm/system/controller/MessageController.class" beforeDir="false" afterPath="$PROJECT_DIR$/system/target/classes/com/yzm/system/controller/MessageController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/target/classes/com/yzm/system/controller/RoleController.class" beforeDir="false" afterPath="$PROJECT_DIR$/system/target/classes/com/yzm/system/controller/RoleController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/target/classes/com/yzm/system/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/system/target/classes/com/yzm/system/controller/UserController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/target/classes/com/yzm/system/controller/bo/UserBO.class" beforeDir="false" afterPath="$PROJECT_DIR$/system/target/classes/com/yzm/system/controller/bo/UserBO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/target/classes/com/yzm/system/controller/vo/ChangePassword.class" beforeDir="false" afterPath="$PROJECT_DIR$/system/target/classes/com/yzm/system/controller/vo/ChangePassword.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/target/classes/com/yzm/system/controller/vo/DeptVO.class" beforeDir="false" afterPath="$PROJECT_DIR$/system/target/classes/com/yzm/system/controller/vo/DeptVO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/target/classes/com/yzm/system/controller/vo/LoginUser.class" beforeDir="false" afterPath="$PROJECT_DIR$/system/target/classes/com/yzm/system/controller/vo/LoginUser.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/target/classes/com/yzm/system/controller/vo/MenuMetaVO.class" beforeDir="false" afterPath="$PROJECT_DIR$/system/target/classes/com/yzm/system/controller/vo/MenuMetaVO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/target/classes/com/yzm/system/controller/vo/MenuVO.class" beforeDir="false" afterPath="$PROJECT_DIR$/system/target/classes/com/yzm/system/controller/vo/MenuVO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/target/classes/com/yzm/system/controller/vo/MessageVO.class" beforeDir="false" afterPath="$PROJECT_DIR$/system/target/classes/com/yzm/system/controller/vo/MessageVO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/target/classes/com/yzm/system/controller/vo/RoleVO.class" beforeDir="false" afterPath="$PROJECT_DIR$/system/target/classes/com/yzm/system/controller/vo/RoleVO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/target/classes/com/yzm/system/controller/vo/ServerInfoVO.class" beforeDir="false" afterPath="$PROJECT_DIR$/system/target/classes/com/yzm/system/controller/vo/ServerInfoVO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/target/classes/com/yzm/system/controller/vo/UserInfo.class" beforeDir="false" afterPath="$PROJECT_DIR$/system/target/classes/com/yzm/system/controller/vo/UserInfo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/target/classes/com/yzm/system/controller/vo/UserToken.class" beforeDir="false" afterPath="$PROJECT_DIR$/system/target/classes/com/yzm/system/controller/vo/UserToken.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/target/classes/com/yzm/system/controller/vo/UserVO.class" beforeDir="false" afterPath="$PROJECT_DIR$/system/target/classes/com/yzm/system/controller/vo/UserVO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/target/classes/com/yzm/system/entity/Avatar.class" beforeDir="false" afterPath="$PROJECT_DIR$/system/target/classes/com/yzm/system/entity/Avatar.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/target/classes/com/yzm/system/entity/BaseEntity.class" beforeDir="false" afterPath="$PROJECT_DIR$/system/target/classes/com/yzm/system/entity/BaseEntity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/target/classes/com/yzm/system/entity/Dept.class" beforeDir="false" afterPath="$PROJECT_DIR$/system/target/classes/com/yzm/system/entity/Dept.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/target/classes/com/yzm/system/entity/LoginLog.class" beforeDir="false" afterPath="$PROJECT_DIR$/system/target/classes/com/yzm/system/entity/LoginLog.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/target/classes/com/yzm/system/entity/LoginSetting.class" beforeDir="false" afterPath="$PROJECT_DIR$/system/target/classes/com/yzm/system/entity/LoginSetting.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/target/classes/com/yzm/system/entity/Menu.class" beforeDir="false" afterPath="$PROJECT_DIR$/system/target/classes/com/yzm/system/entity/Menu.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/target/classes/com/yzm/system/entity/Message.class" beforeDir="false" afterPath="$PROJECT_DIR$/system/target/classes/com/yzm/system/entity/Message.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/target/classes/com/yzm/system/entity/Role.class" beforeDir="false" afterPath="$PROJECT_DIR$/system/target/classes/com/yzm/system/entity/Role.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/target/classes/com/yzm/system/entity/RoleDept.class" beforeDir="false" afterPath="$PROJECT_DIR$/system/target/classes/com/yzm/system/entity/RoleDept.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/target/classes/com/yzm/system/entity/RoleMenu.class" beforeDir="false" afterPath="$PROJECT_DIR$/system/target/classes/com/yzm/system/entity/RoleMenu.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/target/classes/com/yzm/system/entity/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/system/target/classes/com/yzm/system/entity/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/target/classes/com/yzm/system/entity/UserMessage.class" beforeDir="false" afterPath="$PROJECT_DIR$/system/target/classes/com/yzm/system/entity/UserMessage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/target/classes/com/yzm/system/entity/UserRole.class" beforeDir="false" afterPath="$PROJECT_DIR$/system/target/classes/com/yzm/system/entity/UserRole.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/target/classes/com/yzm/system/mapper/DeptMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/system/target/classes/com/yzm/system/mapper/DeptMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/target/classes/com/yzm/system/mapper/IndexMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/system/target/classes/com/yzm/system/mapper/IndexMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/target/classes/com/yzm/system/mapper/LoginLogMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/system/target/classes/com/yzm/system/mapper/LoginLogMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/target/classes/com/yzm/system/mapper/RoleDeptMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/system/target/classes/com/yzm/system/mapper/RoleDeptMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/target/classes/com/yzm/system/mapper/RoleMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/system/target/classes/com/yzm/system/mapper/RoleMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/target/classes/com/yzm/system/mapper/RoleMenuMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/system/target/classes/com/yzm/system/mapper/RoleMenuMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/target/classes/com/yzm/system/mapper/UserMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/system/target/classes/com/yzm/system/mapper/UserMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/target/classes/com/yzm/system/mapper/UserMessageMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/system/target/classes/com/yzm/system/mapper/UserMessageMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/target/classes/com/yzm/system/mapper/UserRoleMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/system/target/classes/com/yzm/system/mapper/UserRoleMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/target/classes/com/yzm/system/query/DeptQuery.class" beforeDir="false" afterPath="$PROJECT_DIR$/system/target/classes/com/yzm/system/query/DeptQuery.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/target/classes/com/yzm/system/query/MenuQuery.class" beforeDir="false" afterPath="$PROJECT_DIR$/system/target/classes/com/yzm/system/query/MenuQuery.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/target/classes/com/yzm/system/query/RoleQuery.class" beforeDir="false" afterPath="$PROJECT_DIR$/system/target/classes/com/yzm/system/query/RoleQuery.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/target/classes/com/yzm/system/query/SettingQuery.class" beforeDir="false" afterPath="$PROJECT_DIR$/system/target/classes/com/yzm/system/query/SettingQuery.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/target/classes/com/yzm/system/query/UserQuery.class" beforeDir="false" afterPath="$PROJECT_DIR$/system/target/classes/com/yzm/system/query/UserQuery.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/target/classes/com/yzm/system/security/CustomAuthProvider.class" beforeDir="false" afterPath="$PROJECT_DIR$/system/target/classes/com/yzm/system/security/CustomAuthProvider.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/target/classes/com/yzm/system/security/CustomLoginFormFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/system/target/classes/com/yzm/system/security/CustomLoginFormFilter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/target/classes/com/yzm/system/security/CustomLogoutHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/system/target/classes/com/yzm/system/security/CustomLogoutHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/target/classes/com/yzm/system/security/CustomSecurityConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/system/target/classes/com/yzm/system/security/CustomSecurityConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/target/classes/com/yzm/system/security/CustomTokenFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/system/target/classes/com/yzm/system/security/CustomTokenFilter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/target/classes/com/yzm/system/service/DeptService.class" beforeDir="false" afterPath="$PROJECT_DIR$/system/target/classes/com/yzm/system/service/DeptService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/target/classes/com/yzm/system/service/IndexService.class" beforeDir="false" afterPath="$PROJECT_DIR$/system/target/classes/com/yzm/system/service/IndexService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/target/classes/com/yzm/system/service/LoginLogService.class" beforeDir="false" afterPath="$PROJECT_DIR$/system/target/classes/com/yzm/system/service/LoginLogService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/target/classes/com/yzm/system/service/MenuService.class" beforeDir="false" afterPath="$PROJECT_DIR$/system/target/classes/com/yzm/system/service/MenuService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/target/classes/com/yzm/system/service/RoleService.class" beforeDir="false" afterPath="$PROJECT_DIR$/system/target/classes/com/yzm/system/service/RoleService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/target/classes/com/yzm/system/service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/system/target/classes/com/yzm/system/service/UserService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/target/classes/com/yzm/system/service/dto/ChartDto.class" beforeDir="false" afterPath="$PROJECT_DIR$/system/target/classes/com/yzm/system/service/dto/ChartDto.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/target/classes/com/yzm/system/service/dto/DeptDto.class" beforeDir="false" afterPath="$PROJECT_DIR$/system/target/classes/com/yzm/system/service/dto/DeptDto.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/target/classes/com/yzm/system/service/dto/MenuDto.class" beforeDir="false" afterPath="$PROJECT_DIR$/system/target/classes/com/yzm/system/service/dto/MenuDto.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/target/classes/com/yzm/system/service/dto/RoleDto.class" beforeDir="false" afterPath="$PROJECT_DIR$/system/target/classes/com/yzm/system/service/dto/RoleDto.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/target/classes/com/yzm/system/service/dto/UserDto.class" beforeDir="false" afterPath="$PROJECT_DIR$/system/target/classes/com/yzm/system/service/dto/UserDto.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/target/classes/com/yzm/system/service/impl/DeptServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/system/target/classes/com/yzm/system/service/impl/DeptServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/target/classes/com/yzm/system/service/impl/IndexServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/system/target/classes/com/yzm/system/service/impl/IndexServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/target/classes/com/yzm/system/service/impl/LoginLogServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/system/target/classes/com/yzm/system/service/impl/LoginLogServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/target/classes/com/yzm/system/service/impl/MenuServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/system/target/classes/com/yzm/system/service/impl/MenuServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/target/classes/com/yzm/system/service/impl/RoleServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/system/target/classes/com/yzm/system/service/impl/RoleServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/target/classes/com/yzm/system/service/impl/UserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/system/target/classes/com/yzm/system/service/impl/UserServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/system/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/target/system-1.0.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/system/target/system-1.0.0.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/target/system-1.0.0.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/system/target/system-1.0.0.jar.original" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/system/target/" />
@@ -84,96 +181,142 @@
         </counts>
       </usages-collector>
     </session>
+    <session id="-1088773467">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="6" />
+          <entry key="project.open.time.1" value="4" />
+          <entry key="project.open.time.2" value="1" />
+          <entry key="project.open.time.4" value="1" />
+          <entry key="project.opened" value="6" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="java" value="651" />
+          <entry key="txt" value="8" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="651" />
+          <entry key="PLAIN_TEXT" value="8" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="java" value="19" />
+          <entry key="xml" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="JAVA" value="19" />
+          <entry key="XML" value="1" />
+        </counts>
+      </usages-collector>
+    </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/system/src/main/java/com/yzm/system/controller/UserController.java">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="22" selection-start-line="21" selection-end-line="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/system/src/main/java/com/yzm/system/mapper/AvatarMapper.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="221">
-              <caret line="42" column="13" selection-start-line="42" selection-start-column="13" selection-end-line="42" selection-end-column="13" />
+              <caret line="16" column="17" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/system/src/main/java/com/yzm/system/controller/IndexController.java">
+        <entry file="file://$PROJECT_DIR$/system/src/main/java/com/yzm/system/security/CustomTokenFilter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="28" column="35" selection-start-line="28" selection-start-column="35" selection-end-line="28" selection-end-column="35" />
+            <state relative-caret-position="-169">
+              <caret line="27" column="13" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/loging/pom.xml">
+        <entry file="file://$PROJECT_DIR$/system/src/main/java/com/yzm/system/security/CustomAuthProvider.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="23" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
-            </state>
-          </provider>
-          <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="612">
-              <caret line="36" column="48" selection-start-line="36" selection-start-column="48" selection-end-line="36" selection-end-column="48" />
-            </state>
-          </provider>
-          <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/system/src/main/resources/application-dev.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="25" column="21" lean-forward="true" selection-start-line="25" selection-start-column="21" selection-end-line="25" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/common/src/main/java/com/yzm/common/enums/ResultEnum.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="12" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="12" />
+            <state relative-caret-position="562">
+              <caret line="59" selection-start-line="59" selection-end-line="59" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/system/src/main/java/com/yzm/system/config/CustomExceptionHandler.java">
+        <entry file="file://$PROJECT_DIR$/system/src/main/java/com/yzm/system/security/CustomLoginFormFilter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="22" selection-start-line="22" selection-end-line="22" />
+            <state relative-caret-position="358">
+              <caret line="132" column="61" lean-forward="true" selection-start-line="132" selection-start-column="61" selection-end-line="132" selection-end-column="61" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/system/pom.xml">
+        <entry file="file://$PROJECT_DIR$/system/src/main/java/com/yzm/system/entity/PhotoAlbum.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="17" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
-            </state>
-          </provider>
-          <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/system/src/main/java/com/yzm/system/controller/LoginSettingController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1360">
-              <caret line="101" column="35" selection-start-line="101" selection-start-column="35" selection-end-line="101" selection-end-column="35" />
+            <state relative-caret-position="442">
+              <caret line="30" column="29" selection-start-line="30" selection-start-column="29" selection-end-line="30" selection-end-column="29" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/system/src/main/resources/application.yml">
-          <provider selected="true" editor-type-id="text-editor" />
+        <entry file="file://$PROJECT_DIR$/system/src/main/java/com/yzm/system/entity/Photo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="425">
+              <caret line="30" column="25" selection-start-line="30" selection-start-column="25" selection-end-line="30" selection-end-column="25" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/system/src/main/java/com/yzm/system/controller/AvatarController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="595">
+              <caret line="50" column="5" selection-start-line="43" selection-start-column="4" selection-end-line="50" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/system/src/main/java/com/yzm/system/service/impl/AvatarServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="36" selection-start-column="36" selection-end-column="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/system/src/main/java/com/yzm/system/service/impl/PhotoServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="15" column="8" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -206,6 +349,9 @@
       <replace>MenuVO</replace>
     </replaceStrings>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="GradleLocalSettings">
     <option name="projectSyncType">
       <map>
@@ -218,15 +364,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/system/src/main/java/com/yzm/system/service/DeptService.java" />
-        <option value="$PROJECT_DIR$/system/src/main/java/com/yzm/system/mapper/DeptMapper.java" />
-        <option value="$PROJECT_DIR$/system/src/main/java/com/yzm/system/service/MonitorService.java" />
-        <option value="$PROJECT_DIR$/common/src/main/java/com/yzm/common/util/OsUtil.java" />
-        <option value="$PROJECT_DIR$/system/src/main/java/com/yzm/system/controller/vo/ServerInfoVO.java" />
-        <option value="$PROJECT_DIR$/system/src/main/java/com/yzm/system/service/impl/MonitorServiceImpl.java" />
-        <option value="$PROJECT_DIR$/system/src/main/java/com/yzm/system/mapper/LoginSettingMapper.java" />
-        <option value="$PROJECT_DIR$/system/src/main/java/com/yzm/system/service/ILoginSettingService.java" />
-        <option value="$PROJECT_DIR$/system/src/main/java/com/yzm/system/service/impl/LoginSettingServiceImpl.java" />
         <option value="$PROJECT_DIR$/common/src/main/java/com/yzm/common/constant/CoreConstant.java" />
         <option value="$PROJECT_DIR$/system/src/main/java/com/yzm/system/entity/LoginSetting.java" />
         <option value="$PROJECT_DIR$/system/src/main/java/com/yzm/system/query/SettingQuery.java" />
@@ -269,6 +406,15 @@
         <option value="$PROJECT_DIR$/system/pom.xml" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/system/src/main/java/com/yzm/system/config/CustomExceptionHandler.java" />
+        <option value="$PROJECT_DIR$/system/src/main/java/com/yzm/system/mapper/PhotoAlbumMapper.java" />
+        <option value="$PROJECT_DIR$/system/src/main/java/com/yzm/system/mapper/PhotoMapper.java" />
+        <option value="$PROJECT_DIR$/system/src/main/java/com/yzm/system/service/PhotoAlbumService.java" />
+        <option value="$PROJECT_DIR$/system/src/main/java/com/yzm/system/service/PhotoService.java" />
+        <option value="$PROJECT_DIR$/system/src/main/java/com/yzm/system/service/impl/PhotoAlbumServiceImpl.java" />
+        <option value="$PROJECT_DIR$/system/src/main/java/com/yzm/system/service/impl/PhotoServiceImpl.java" />
+        <option value="$PROJECT_DIR$/system/src/main/java/com/yzm/system/entity/Photo.java" />
+        <option value="$PROJECT_DIR$/system/src/main/java/com/yzm/system/entity/PhotoAlbum.java" />
+        <option value="$PROJECT_DIR$/system/src/main/java/com/yzm/system/controller/PhotoAlbumController.java" />
       </list>
     </option>
   </component>
@@ -287,12 +433,7 @@
   </component>
   <component name="MavenProjectNavigator">
     <treeState>
-      <expand>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="yadmin-parent" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
-      </expand>
+      <expand />
       <select />
     </treeState>
   </component>
@@ -354,98 +495,104 @@
       </profile-state>
     </entry>
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="yadminparent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="yadminparent" type="462c0819:PsiDirectoryNode" />
+              <item name="oneadminparent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="oneadminparent" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="yadminparent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="yadminparent" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
+              <item name="oneadminparent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="oneadminparent" type="462c0819:PsiDirectoryNode" />
+              <item name="system" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="yadminparent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="yadminparent" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
+              <item name="oneadminparent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="oneadminparent" type="462c0819:PsiDirectoryNode" />
+              <item name="system" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="yadminparent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="yadminparent" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="yadminparent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="yadminparent" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
+              <item name="oneadminparent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="oneadminparent" type="462c0819:PsiDirectoryNode" />
+              <item name="system" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="yadminparent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="yadminparent" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
+              <item name="oneadminparent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="oneadminparent" type="462c0819:PsiDirectoryNode" />
+              <item name="system" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="yadminparent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="yadminparent" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
+              <item name="oneadminparent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="oneadminparent" type="462c0819:PsiDirectoryNode" />
+              <item name="system" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="yzm" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="yadminparent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="yadminparent" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
+              <item name="oneadminparent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="oneadminparent" type="462c0819:PsiDirectoryNode" />
+              <item name="system" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="yzm" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="yadminparent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="yadminparent" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
+              <item name="oneadminparent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="oneadminparent" type="462c0819:PsiDirectoryNode" />
+              <item name="system" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="yzm" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-              <item name="enums" type="462c0819:PsiDirectoryNode" />
+              <item name="system" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="yadminparent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="yadminparent" type="462c0819:PsiDirectoryNode" />
-              <item name="loging" type="462c0819:PsiDirectoryNode" />
+              <item name="oneadminparent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="oneadminparent" type="462c0819:PsiDirectoryNode" />
+              <item name="system" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="yzm" type="462c0819:PsiDirectoryNode" />
+              <item name="system" type="462c0819:PsiDirectoryNode" />
+              <item name="security" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="oneadminparent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="oneadminparent" type="462c0819:PsiDirectoryNode" />
+              <item name="system" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -456,7 +603,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1583331793146" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1585530363653" />
     <property name="database.console.LAST_STATE" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -574,15 +721,28 @@
       <workItem from="1582275782537" duration="4464000" />
       <workItem from="1582794925833" duration="383000" />
       <workItem from="1582856706156" duration="1430000" />
+      <workItem from="1585200360898" duration="2202000" />
+      <workItem from="1585204840326" duration="200000" />
+      <workItem from="1585205055677" duration="9000" />
+      <workItem from="1585205084664" duration="2919000" />
+      <workItem from="1585539142734" duration="417000" />
+      <workItem from="1585642545630" duration="587000" />
     </task>
+    <task id="LOCAL-00001" summary="部分修改">
+      <created>1585200967861</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1585200967861</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="117120000" />
+    <option name="totallyTimeSpent" value="123454000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="Image Layers" order="0" />
       <window_info id="UI Designer" order="1" />
@@ -590,7 +750,7 @@
       <window_info id="Capture Tool" order="3" />
       <window_info id="Web" order="4" side_tool="true" />
       <window_info id="Designer" order="5" />
-      <window_info active="true" content_ui="combo" id="Project" order="6" visible="true" weight="0.24678111" />
+      <window_info active="true" content_ui="combo" id="Project" order="6" visible="true" weight="0.2074392" />
       <window_info id="Structure" order="7" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="0" weight="0.32891566" />
       <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
@@ -625,48 +785,11 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="部分修改" />
+    <option name="LAST_COMMIT_MESSAGE" value="部分修改" />
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/system/src/main/java/com/yzm/system/service/impl/DeptServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="714">
-          <caret line="59" column="24" selection-start-line="59" selection-start-column="19" selection-end-line="59" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/system/src/main/java/com/yzm/system/service/impl/LoginLogServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/b6c41dfb-757c-4c5a-a1d6-87cf1f28a76c/console.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="20" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/system/src/main/java/com/yzm/system/service/impl/MenuServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="358">
-          <caret line="195" column="18" selection-start-line="195" selection-start-column="18" selection-end-line="195" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/message/pom.xml" />
-    <entry file="file://$PROJECT_DIR$/message/src/main/java/com/yzm/message/entity/MessageEntity.java" />
-    <entry file="file://$PROJECT_DIR$/message/src/main/java/com/yzm/message/mapper/MessageMapper.java" />
-    <entry file="file://$PROJECT_DIR$/message/src/main/java/com/yzm/message/entity/UserMessageEntity.java" />
-    <entry file="file://$PROJECT_DIR$/message/src/main/java/com/yzm/message/service/MessageService.java" />
-    <entry file="file://$PROJECT_DIR$/message/src/main/java/com/yzm/message/service/impl/MessageServiceImpl.java" />
-    <entry file="file://$PROJECT_DIR$/loging/src/main/java/com/yzm/loging/aop/LogAspect.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="74">
-          <caret line="48" column="30" selection-start-line="48" selection-start-column="30" selection-end-line="48" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/message/src/main/java/com/yzm/message/mapper/UserMessageMapper.java" />
     <entry file="file://$PROJECT_DIR$/common/src/main/java/com/yzm/common/vo/PageVO.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -704,20 +827,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-web/5.2.1.RELEASE/spring-security-web-5.2.1.RELEASE.jar!/org/springframework/security/web/FilterChainProxy.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="174">
-          <caret line="59" selection-start-line="59" selection-end-line="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-core/5.2.1.RELEASE/spring-security-core-5.2.1.RELEASE.jar!/org/springframework/security/authentication/ProviderManager.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="106">
-          <caret line="80" selection-start-line="80" selection-end-line="80" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-web/5.2.1.RELEASE/spring-security-web-5.2.1.RELEASE.jar!/org/springframework/security/web/FilterChainProxy.class" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-core/5.2.1.RELEASE/spring-security-core-5.2.1.RELEASE.jar!/org/springframework/security/authentication/ProviderManager.class" />
     <entry file="file://$PROJECT_DIR$/system/src/main/java/com/yzm/system/controller/vo/MessageVO.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
@@ -729,20 +840,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="18" column="7" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/system/src/main/java/com/yzm/system/security/CustomLoginFormFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1122">
-          <caret line="96" column="45" selection-start-line="96" selection-start-column="45" selection-end-line="96" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/system/src/main/java/com/yzm/system/security/CustomAuthProvider.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="697">
-          <caret line="59" selection-start-line="59" selection-end-line="59" />
         </state>
       </provider>
     </entry>
@@ -764,13 +861,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
           <caret line="20" column="19" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/system/src/main/java/com/yzm/system/entity/Avatar.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -802,13 +892,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/system/src/main/java/com/yzm/system/service/impl/AvatarServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/system/src/main/java/com/yzm/system/service/impl/IndexServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
@@ -827,13 +910,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
           <caret line="22" column="14" selection-start-line="22" selection-start-column="14" selection-end-line="22" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/system/src/main/java/com/yzm/system/controller/AvatarController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="163">
-          <caret line="87" column="45" lean-forward="true" selection-start-line="87" selection-start-column="45" selection-end-line="87" selection-end-column="45" />
         </state>
       </provider>
     </entry>
@@ -880,43 +956,10 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/loging/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="15" column="23" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
-        </state>
-      </provider>
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="612">
-          <caret line="36" column="48" selection-start-line="36" selection-start-column="48" selection-end-line="36" selection-end-column="48" />
-        </state>
-      </provider>
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/system/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="17" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
-        </state>
-      </provider>
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/system/src/main/java/com/yzm/system/controller/LoginSettingController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1360">
-          <caret line="101" column="35" selection-start-line="101" selection-start-column="35" selection-end-line="101" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/system/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/system/src/main/resources/application-dev.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="25" column="21" lean-forward="true" selection-start-line="25" selection-start-column="21" selection-end-line="25" selection-end-column="21" />
         </state>
       </provider>
     </entry>
@@ -931,6 +974,166 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
           <caret line="22" selection-start-line="22" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/system/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="17" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/system/src/main/java/com/yzm/system/controller/LoginSettingController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1360">
+          <caret line="101" column="35" selection-start-line="101" selection-start-column="35" selection-end-line="101" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/system/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/system/src/main/resources/application-dev.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1377">
+          <caret line="81" column="26" selection-start-line="81" selection-start-column="26" selection-end-line="81" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/system/src/main/java/com/yzm/system/entity/Avatar.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="28" column="28" lean-forward="true" selection-start-line="19" selection-start-column="4" selection-end-line="28" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/system/src/main/java/com/yzm/system/mapper/PhotoAlbumMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="63" selection-start-line="16" selection-start-column="63" selection-end-line="16" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/system/src/main/java/com/yzm/system/mapper/PhotoMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="53" selection-start-line="16" selection-start-column="53" selection-end-line="16" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/system/src/main/java/com/yzm/system/service/PhotoAlbumService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="62" selection-start-line="12" selection-start-column="62" selection-end-line="12" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/system/src/main/java/com/yzm/system/service/PhotoService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="52" selection-start-line="12" selection-start-column="52" selection-end-line="12" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/system/src/main/java/com/yzm/system/service/impl/PhotoAlbumServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="15" column="8" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/system/src/main/java/com/yzm/system/controller/PhotoAlbumController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="799">
+          <caret line="59" column="24" selection-start-line="59" selection-start-column="24" selection-end-line="59" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/system/src/main/java/com/yzm/system/entity/PhotoAlbum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="30" column="29" selection-start-line="30" selection-start-column="29" selection-end-line="30" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/system/src/main/java/com/yzm/system/entity/Photo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="30" column="25" selection-start-line="30" selection-start-column="25" selection-end-line="30" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/system/src/main/java/com/yzm/system/controller/AvatarController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="595">
+          <caret line="50" column="5" selection-start-line="43" selection-start-column="4" selection-end-line="50" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/system/src/main/java/com/yzm/system/service/impl/AvatarServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="36" selection-start-column="36" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/system/src/main/java/com/yzm/system/service/impl/PhotoServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="15" column="8" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="22" selection-start-line="21" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/system/src/main/java/com/yzm/system/mapper/AvatarMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="16" column="17" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/system/src/main/java/com/yzm/system/security/CustomTokenFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-169">
+          <caret line="27" column="13" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/system/src/main/java/com/yzm/system/security/CustomAuthProvider.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="562">
+          <caret line="59" selection-start-line="59" selection-end-line="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/system/src/main/java/com/yzm/system/security/CustomLoginFormFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="358">
+          <caret line="132" column="61" lean-forward="true" selection-start-line="132" selection-start-column="61" selection-end-line="132" selection-end-column="61" />
         </state>
       </provider>
     </entry>

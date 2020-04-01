@@ -195,7 +195,7 @@
               }
             },
             {
-              name: '总访问',
+              name: 'IP量',
               type: 'bar',
               data: data2,
               itemStyle: {
@@ -213,7 +213,7 @@
       },
       showLineChart(data) {
         this.pieChart = this.$echarts.init(document.getElementById('pie'));
-        let colorList = ['#afa3f5', '#00d488', '#3feed4', '#3bafff', '#f1bb4c', '#aff', "rgba(250,250,250,0.9)"];
+        let colorList = ['#afa3f5', '#fa5a5a', '#f0d264', '#3bafff', '#f1bb4c', "#82c8a0","#7fccde","#6698cb","#cb99c5"];
         let option = {
           tooltip: {
             trigger: 'item',
@@ -269,8 +269,8 @@
               labelLine: {
                 normal: {
                   show: true,
-                  length: 35,
-                  length2: 100,
+                  length: 25,
+                  length2: 60,
                   lineStyle: {
                     color: '#d3d3d3'
                   },
@@ -421,13 +421,13 @@
           return "哟！修仙呢？"
         }
         else if (hour < 9) {
-          return "今天又是充满希望的一天！"
+          return "今天又是充满希望的一天！菜鸡"
         }
         else if (hour < 12) {
           return "工作之余来杯枸杞茶吧！"
         }
         else if (hour < 14) {
-          return "元气满满的一下午！"
+          return "祝你有个元气满满的一下午鸭！"
         }
         else if (hour < 17) {
           return "一杯茶一包烟，一个bug改一天！"

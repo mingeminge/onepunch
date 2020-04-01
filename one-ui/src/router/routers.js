@@ -16,11 +16,11 @@ export const constantRouterMap = [
     component: () => import('@/views/404'),
     hidden: true
   },
-  {
+  /*{
     path: '/leaving-message',
     component: () => import('@/views/message/index'),
     hidden: true
-  },
+  },*/
   {
     path: '/',
     component: Layout,

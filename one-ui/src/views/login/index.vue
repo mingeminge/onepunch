@@ -53,7 +53,7 @@
     data() {
       return {
         form: {
-          username: localStorage.username||'admin',
+          username: localStorage.username||'mingege',
           password: localStorage.password||'123456',
           rememberMe: false
         },
