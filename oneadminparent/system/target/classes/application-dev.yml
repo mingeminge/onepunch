@@ -1,6 +1,9 @@
 server:
   port: 8081
 spring:
+  output:
+    ansi:
+      enabled: always
   datasource:
     url: jdbc:mysql://47.104.20.179:3306/yc?allowMultiQueries=true&useUnicode=true&serverTimezone=Asia/Shanghai&useSSL=false
     username: root
@@ -80,7 +83,7 @@ management:
     health:
       # 详细信息显示给所有用户。
       show-details: always
-eureka:
-  client:
-    serviceUrl:
-      defaultZone: http://47.104.20.179:8761/eureka/  #注册中心
+#eureka:
+#  client:
+#    serviceUrl:
+#      defaultZone: http://47.104.20.179:8761/eureka/  #注册中心

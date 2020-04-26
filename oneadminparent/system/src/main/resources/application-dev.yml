@@ -1,6 +1,9 @@
 server:
   port: 8081
 spring:
+  output:
+    ansi:
+      enabled: always
   datasource:
     url: jdbc:mysql://47.104.20.179:3306/yc?allowMultiQueries=true&useUnicode=true&serverTimezone=Asia/Shanghai&useSSL=false
     username: 
@@ -46,6 +49,13 @@ spring:
         max-idle: 100
         max-wait: 1ms
         min-idle: 5
+  activemq:
+    broker-url: tcp://47.104.20.179:61616
+    user: admin
+    password: admin
+    in-memory: false
+    queue-name: active.queue
+    topic-name: active.topic.name.model
   application:
     name: service-admin
 mybatis-plus:

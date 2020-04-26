@@ -15,4 +15,5 @@ import org.springframework.stereotype.Service;
  */
 @Service
 public class SystemLogServiceImpl extends ServiceImpl<SystemLogMapper, SystemLog> implements SystemLogService {
+
 }

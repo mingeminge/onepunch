@@ -13,14 +13,14 @@
         <result column="status" property="status"/>
         <result column="dept_id" property="deptId"/>
         <result column="create_time" property="createTime"/>
-        <result property="update_time" column="updateTime"/>
+        <result property="updateTime" column="update_time"/>
         <collection property="roles" ofType="com.yzm.system.entity.Role">
             <id column="roleId" property="id"/>
             <result column="name" property="name"/>
             <result column="description" property="description"/>
             <result column="status" property="status"/>
             <result column="create_time" property="createTime"/>
-            <result property="update_time" column="updateTime"/>
+            <result column="update_time" property="updateTime"/>
             <collection property="menus" ofType="com.yzm.system.entity.Menu">
                 <id column="permissionId" property="id"/>
                 <result column="permissionName" property="name"/>
@@ -35,7 +35,7 @@
                 <result column="pid" property="pid"/>
                 <result column="i_frame" property="iFrame"/>
                 <result column="create_time" property="createTime"/>
-                <result property="update_time" column="updateTime"/>
+                <result column="update_time" property="updateTime"/>
             </collection>
         </collection>
     </resultMap>

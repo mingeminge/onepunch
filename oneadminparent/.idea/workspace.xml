@@ -2,111 +2,46 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d14d7043-0c9e-413f-8230-068f6140871a" name="Default Changelist" comment="部分修改">
-      <change afterPath="$PROJECT_DIR$/../one-ui/src/icons/svg/photo.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../one-ui/src/icons/svg/saitama.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../one-ui/src/icons/svg/zone.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../one-ui/src/views/zone/photo/index.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/system/src/main/java/com/yzm/system/controller/PhotoAlbumController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/system/src/main/java/com/yzm/system/entity/Photo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/system/src/main/java/com/yzm/system/entity/PhotoAlbum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/system/src/main/java/com/yzm/system/mapper/PhotoAlbumMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/system/src/main/java/com/yzm/system/mapper/PhotoMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/system/src/main/java/com/yzm/system/service/PhotoAlbumService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/system/src/main/java/com/yzm/system/service/PhotoService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/system/src/main/java/com/yzm/system/service/impl/PhotoAlbumServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/system/src/main/java/com/yzm/system/service/impl/PhotoServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../one-ui/src/icons/svg/message.svg" beforeDir="false" afterPath="$PROJECT_DIR$/../one-ui/src/icons/svg/message.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../one-ui/src/layout/components/Sidebar/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../one-ui/src/layout/components/Sidebar/index.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../one-ui/src/router/routers.js" beforeDir="false" afterPath="$PROJECT_DIR$/../one-ui/src/router/routers.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../one-ui/src/views/index/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../one-ui/src/views/index/index.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../one-ui/src/views/login/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../one-ui/src/views/login/index.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../one-ui/src/views/message/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../one-ui/src/views/zone/message/index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/oneadminparent.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/system/src/main/java/com/yzm/system/config/ActiveMqConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/system/src/main/java/com/yzm/system/mq/QueueConsumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/system/src/main/java/com/yzm/system/service/MqService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/system/src/main/java/com/yzm/system/service/impl/MqServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/system/src/main/resources/banner.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../one-ui/src/router/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../one-ui/src/router/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/target/classes/com/yzm/common/enums/ResultEnum.class" beforeDir="false" afterPath="$PROJECT_DIR$/common/target/classes/com/yzm/common/enums/ResultEnum.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/target/classes/com/yzm/common/query/BaseQuery.class" beforeDir="false" afterPath="$PROJECT_DIR$/common/target/classes/com/yzm/common/query/BaseQuery.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/target/classes/com/yzm/common/util/Base64Util.class" beforeDir="false" afterPath="$PROJECT_DIR$/common/target/classes/com/yzm/common/util/Base64Util.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/target/classes/com/yzm/common/util/CopyUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/common/target/classes/com/yzm/common/util/CopyUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/target/classes/com/yzm/common/util/EasyExcelUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/common/target/classes/com/yzm/common/util/EasyExcelUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/target/classes/com/yzm/common/util/FileUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/common/target/classes/com/yzm/common/util/FileUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/target/classes/com/yzm/common/util/HttpClientUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/common/target/classes/com/yzm/common/util/HttpClientUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/target/classes/com/yzm/common/util/JsonUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/common/target/classes/com/yzm/common/util/JsonUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/target/classes/com/yzm/common/util/OsUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/common/target/classes/com/yzm/common/util/OsUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/target/classes/com/yzm/common/util/RedisUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/common/target/classes/com/yzm/common/util/RedisUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/target/classes/com/yzm/common/util/SftpProperties.class" beforeDir="false" afterPath="$PROJECT_DIR$/common/target/classes/com/yzm/common/util/SftpProperties.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/target/classes/com/yzm/common/vo/PageVO.class" beforeDir="false" afterPath="$PROJECT_DIR$/common/target/classes/com/yzm/common/vo/PageVO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/target/classes/com/yzm/common/vo/ResultVO.class" beforeDir="false" afterPath="$PROJECT_DIR$/common/target/classes/com/yzm/common/vo/ResultVO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/loging/src/main/java/com/yzm/loging/service/impl/SystemLogServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/loging/src/main/java/com/yzm/loging/service/impl/SystemLogServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/loging/target/classes/com/yzm/loging/aop/LogAspect.class" beforeDir="false" afterPath="$PROJECT_DIR$/loging/target/classes/com/yzm/loging/aop/LogAspect.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/loging/target/classes/com/yzm/loging/controller/SystemLogController.class" beforeDir="false" afterPath="$PROJECT_DIR$/loging/target/classes/com/yzm/loging/controller/SystemLogController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/loging/target/classes/com/yzm/loging/entity/SystemLog.class" beforeDir="false" afterPath="$PROJECT_DIR$/loging/target/classes/com/yzm/loging/entity/SystemLog.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/loging/target/classes/com/yzm/loging/query/SystemLogQuery.class" beforeDir="false" afterPath="$PROJECT_DIR$/loging/target/classes/com/yzm/loging/query/SystemLogQuery.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/src/main/java/com/yzm/system/security/CustomLoginFormFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/system/src/main/java/com/yzm/system/security/CustomLoginFormFilter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/system/src/main/resources/application-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/system/src/main/resources/application-dev.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/target/classes/com/yzm/system/SystemApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/system/target/classes/com/yzm/system/SystemApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/target/classes/com/yzm/system/config/CustomExceptionHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/system/target/classes/com/yzm/system/config/CustomExceptionHandler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/target/classes/com/yzm/system/controller/AvatarController.class" beforeDir="false" afterPath="$PROJECT_DIR$/system/target/classes/com/yzm/system/controller/AvatarController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/target/classes/com/yzm/system/controller/DeptController.class" beforeDir="false" afterPath="$PROJECT_DIR$/system/target/classes/com/yzm/system/controller/DeptController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/target/classes/com/yzm/system/controller/IndexController.class" beforeDir="false" afterPath="$PROJECT_DIR$/system/target/classes/com/yzm/system/controller/IndexController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/target/classes/com/yzm/system/controller/LoginController$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/system/target/classes/com/yzm/system/controller/LoginController$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/target/classes/com/yzm/system/controller/LoginSettingController.class" beforeDir="false" afterPath="$PROJECT_DIR$/system/target/classes/com/yzm/system/controller/LoginSettingController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/target/classes/com/yzm/system/controller/MenuController.class" beforeDir="false" afterPath="$PROJECT_DIR$/system/target/classes/com/yzm/system/controller/MenuController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/target/classes/com/yzm/system/controller/MessageController.class" beforeDir="false" afterPath="$PROJECT_DIR$/system/target/classes/com/yzm/system/controller/MessageController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/target/classes/com/yzm/system/controller/RoleController.class" beforeDir="false" afterPath="$PROJECT_DIR$/system/target/classes/com/yzm/system/controller/RoleController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/target/classes/com/yzm/system/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/system/target/classes/com/yzm/system/controller/UserController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/target/classes/com/yzm/system/controller/bo/UserBO.class" beforeDir="false" afterPath="$PROJECT_DIR$/system/target/classes/com/yzm/system/controller/bo/UserBO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/target/classes/com/yzm/system/controller/vo/ChangePassword.class" beforeDir="false" afterPath="$PROJECT_DIR$/system/target/classes/com/yzm/system/controller/vo/ChangePassword.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/target/classes/com/yzm/system/controller/vo/DeptVO.class" beforeDir="false" afterPath="$PROJECT_DIR$/system/target/classes/com/yzm/system/controller/vo/DeptVO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/target/classes/com/yzm/system/controller/vo/LoginUser.class" beforeDir="false" afterPath="$PROJECT_DIR$/system/target/classes/com/yzm/system/controller/vo/LoginUser.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/target/classes/com/yzm/system/controller/vo/MenuMetaVO.class" beforeDir="false" afterPath="$PROJECT_DIR$/system/target/classes/com/yzm/system/controller/vo/MenuMetaVO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/target/classes/com/yzm/system/controller/vo/MenuVO.class" beforeDir="false" afterPath="$PROJECT_DIR$/system/target/classes/com/yzm/system/controller/vo/MenuVO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/target/classes/com/yzm/system/controller/vo/MessageVO.class" beforeDir="false" afterPath="$PROJECT_DIR$/system/target/classes/com/yzm/system/controller/vo/MessageVO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/target/classes/com/yzm/system/controller/vo/RoleVO.class" beforeDir="false" afterPath="$PROJECT_DIR$/system/target/classes/com/yzm/system/controller/vo/RoleVO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/target/classes/com/yzm/system/controller/vo/ServerInfoVO.class" beforeDir="false" afterPath="$PROJECT_DIR$/system/target/classes/com/yzm/system/controller/vo/ServerInfoVO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/target/classes/com/yzm/system/controller/vo/UserInfo.class" beforeDir="false" afterPath="$PROJECT_DIR$/system/target/classes/com/yzm/system/controller/vo/UserInfo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/target/classes/com/yzm/system/controller/vo/UserToken.class" beforeDir="false" afterPath="$PROJECT_DIR$/system/target/classes/com/yzm/system/controller/vo/UserToken.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/target/classes/com/yzm/system/controller/vo/UserVO.class" beforeDir="false" afterPath="$PROJECT_DIR$/system/target/classes/com/yzm/system/controller/vo/UserVO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/target/classes/com/yzm/system/entity/Avatar.class" beforeDir="false" afterPath="$PROJECT_DIR$/system/target/classes/com/yzm/system/entity/Avatar.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/target/classes/com/yzm/system/entity/BaseEntity.class" beforeDir="false" afterPath="$PROJECT_DIR$/system/target/classes/com/yzm/system/entity/BaseEntity.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/target/classes/com/yzm/system/entity/Dept.class" beforeDir="false" afterPath="$PROJECT_DIR$/system/target/classes/com/yzm/system/entity/Dept.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/target/classes/com/yzm/system/entity/LoginLog.class" beforeDir="false" afterPath="$PROJECT_DIR$/system/target/classes/com/yzm/system/entity/LoginLog.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/target/classes/com/yzm/system/entity/LoginSetting.class" beforeDir="false" afterPath="$PROJECT_DIR$/system/target/classes/com/yzm/system/entity/LoginSetting.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/target/classes/com/yzm/system/entity/Menu.class" beforeDir="false" afterPath="$PROJECT_DIR$/system/target/classes/com/yzm/system/entity/Menu.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/target/classes/com/yzm/system/entity/Message.class" beforeDir="false" afterPath="$PROJECT_DIR$/system/target/classes/com/yzm/system/entity/Message.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/target/classes/com/yzm/system/entity/Role.class" beforeDir="false" afterPath="$PROJECT_DIR$/system/target/classes/com/yzm/system/entity/Role.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/target/classes/com/yzm/system/entity/RoleDept.class" beforeDir="false" afterPath="$PROJECT_DIR$/system/target/classes/com/yzm/system/entity/RoleDept.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/target/classes/com/yzm/system/entity/RoleMenu.class" beforeDir="false" afterPath="$PROJECT_DIR$/system/target/classes/com/yzm/system/entity/RoleMenu.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/target/classes/com/yzm/system/entity/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/system/target/classes/com/yzm/system/entity/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/target/classes/com/yzm/system/entity/UserMessage.class" beforeDir="false" afterPath="$PROJECT_DIR$/system/target/classes/com/yzm/system/entity/UserMessage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/target/classes/com/yzm/system/entity/UserRole.class" beforeDir="false" afterPath="$PROJECT_DIR$/system/target/classes/com/yzm/system/entity/UserRole.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/target/classes/com/yzm/system/mapper/DeptMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/system/target/classes/com/yzm/system/mapper/DeptMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/target/classes/com/yzm/system/mapper/IndexMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/system/target/classes/com/yzm/system/mapper/IndexMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/target/classes/com/yzm/system/mapper/LoginLogMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/system/target/classes/com/yzm/system/mapper/LoginLogMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/target/classes/com/yzm/system/mapper/RoleDeptMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/system/target/classes/com/yzm/system/mapper/RoleDeptMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/target/classes/com/yzm/system/mapper/RoleMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/system/target/classes/com/yzm/system/mapper/RoleMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/target/classes/com/yzm/system/mapper/RoleMenuMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/system/target/classes/com/yzm/system/mapper/RoleMenuMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/target/classes/com/yzm/system/mapper/UserMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/system/target/classes/com/yzm/system/mapper/UserMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/target/classes/com/yzm/system/mapper/UserMessageMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/system/target/classes/com/yzm/system/mapper/UserMessageMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/target/classes/com/yzm/system/mapper/UserRoleMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/system/target/classes/com/yzm/system/mapper/UserRoleMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/target/classes/com/yzm/system/query/DeptQuery.class" beforeDir="false" afterPath="$PROJECT_DIR$/system/target/classes/com/yzm/system/query/DeptQuery.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/target/classes/com/yzm/system/query/MenuQuery.class" beforeDir="false" afterPath="$PROJECT_DIR$/system/target/classes/com/yzm/system/query/MenuQuery.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/target/classes/com/yzm/system/query/RoleQuery.class" beforeDir="false" afterPath="$PROJECT_DIR$/system/target/classes/com/yzm/system/query/RoleQuery.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/target/classes/com/yzm/system/query/SettingQuery.class" beforeDir="false" afterPath="$PROJECT_DIR$/system/target/classes/com/yzm/system/query/SettingQuery.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/target/classes/com/yzm/system/query/UserQuery.class" beforeDir="false" afterPath="$PROJECT_DIR$/system/target/classes/com/yzm/system/query/UserQuery.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/target/classes/com/yzm/system/security/CustomAuthProvider.class" beforeDir="false" afterPath="$PROJECT_DIR$/system/target/classes/com/yzm/system/security/CustomAuthProvider.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/src/main/resources/mapper/system/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/system/src/main/resources/mapper/system/UserMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/target/classes/application-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/system/target/classes/application-dev.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/system/target/classes/com/yzm/system/security/CustomLoginFormFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/system/target/classes/com/yzm/system/security/CustomLoginFormFilter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/target/classes/com/yzm/system/security/CustomLogoutHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/system/target/classes/com/yzm/system/security/CustomLogoutHandler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/target/classes/com/yzm/system/security/CustomSecurityConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/system/target/classes/com/yzm/system/security/CustomSecurityConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/target/classes/com/yzm/system/security/CustomTokenFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/system/target/classes/com/yzm/system/security/CustomTokenFilter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/target/classes/com/yzm/system/service/DeptService.class" beforeDir="false" afterPath="$PROJECT_DIR$/system/target/classes/com/yzm/system/service/DeptService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/target/classes/com/yzm/system/service/IndexService.class" beforeDir="false" afterPath="$PROJECT_DIR$/system/target/classes/com/yzm/system/service/IndexService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/target/classes/com/yzm/system/service/LoginLogService.class" beforeDir="false" afterPath="$PROJECT_DIR$/system/target/classes/com/yzm/system/service/LoginLogService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/target/classes/com/yzm/system/service/MenuService.class" beforeDir="false" afterPath="$PROJECT_DIR$/system/target/classes/com/yzm/system/service/MenuService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/target/classes/com/yzm/system/service/RoleService.class" beforeDir="false" afterPath="$PROJECT_DIR$/system/target/classes/com/yzm/system/service/RoleService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/target/classes/com/yzm/system/service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/system/target/classes/com/yzm/system/service/UserService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/target/classes/com/yzm/system/service/dto/ChartDto.class" beforeDir="false" afterPath="$PROJECT_DIR$/system/target/classes/com/yzm/system/service/dto/ChartDto.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/target/classes/com/yzm/system/service/dto/DeptDto.class" beforeDir="false" afterPath="$PROJECT_DIR$/system/target/classes/com/yzm/system/service/dto/DeptDto.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/target/classes/com/yzm/system/service/dto/MenuDto.class" beforeDir="false" afterPath="$PROJECT_DIR$/system/target/classes/com/yzm/system/service/dto/MenuDto.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/target/classes/com/yzm/system/service/dto/RoleDto.class" beforeDir="false" afterPath="$PROJECT_DIR$/system/target/classes/com/yzm/system/service/dto/RoleDto.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/target/classes/com/yzm/system/service/dto/UserDto.class" beforeDir="false" afterPath="$PROJECT_DIR$/system/target/classes/com/yzm/system/service/dto/UserDto.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/target/classes/com/yzm/system/service/impl/DeptServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/system/target/classes/com/yzm/system/service/impl/DeptServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/target/classes/com/yzm/system/service/impl/IndexServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/system/target/classes/com/yzm/system/service/impl/IndexServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/target/classes/com/yzm/system/service/impl/LoginLogServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/system/target/classes/com/yzm/system/service/impl/LoginLogServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/target/classes/com/yzm/system/service/impl/MenuServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/system/target/classes/com/yzm/system/service/impl/MenuServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/target/classes/com/yzm/system/service/impl/RoleServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/system/target/classes/com/yzm/system/service/impl/RoleServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/target/classes/com/yzm/system/service/impl/UserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/system/target/classes/com/yzm/system/service/impl/UserServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/system/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/target/system-1.0.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/system/target/system-1.0.0.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/target/system-1.0.0.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/system/target/system-1.0.0.jar.original" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/target/classes/mapper/system/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/system/target/classes/mapper/system/UserMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/target/system-1.0.0.jar" beforeDir="false" />
     </list>
-    <ignored path="$PROJECT_DIR$/out/" />
-    <ignored path="$PROJECT_DIR$/target/" />
-    <ignored path="$PROJECT_DIR$/system/target/" />
-    <ignored path="$PROJECT_DIR$/common/target/" />
-    <ignored path="$PROJECT_DIR$/loging/target/" />
-    <ignored path="$PROJECT_DIR$/chat/target/" />
-    <ignored path="$PROJECT_DIR$/message/target/" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -125,201 +60,6 @@
     </option>
     <expand />
     <select />
-  </component>
-  <component name="FUSProjectUsageTrigger">
-    <session id="-136208497">
-      <usages-collector id="statistics.lifecycle.project">
-        <counts>
-          <entry key="project.closed" value="23" />
-          <entry key="project.open.time.0" value="1" />
-          <entry key="project.open.time.1" value="9" />
-          <entry key="project.open.time.2" value="3" />
-          <entry key="project.open.time.3" value="1" />
-          <entry key="project.open.time.5" value="2" />
-          <entry key="project.open.time.6" value="2" />
-          <entry key="project.open.time.7" value="4" />
-          <entry key="project.open.time.8" value="1" />
-          <entry key="project.opened" value="23" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.edit">
-        <counts>
-          <entry key="dummy" value="87" />
-          <entry key="java" value="8830" />
-          <entry key="sql" value="45" />
-          <entry key="txt" value="61" />
-          <entry key="xml" value="852" />
-          <entry key="yml" value="229" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.edit">
-        <counts>
-          <entry key="JAVA" value="8830" />
-          <entry key="PLAIN_TEXT" value="148" />
-          <entry key="SQL" value="3" />
-          <entry key="Scratch" value="45" />
-          <entry key="XML" value="849" />
-          <entry key="YAML" value="229" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.open">
-        <counts>
-          <entry key="class" value="17" />
-          <entry key="java" value="439" />
-          <entry key="sql" value="1" />
-          <entry key="xml" value="69" />
-          <entry key="yml" value="29" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.open">
-        <counts>
-          <entry key="CLASS" value="17" />
-          <entry key="JAVA" value="439" />
-          <entry key="Scratch" value="1" />
-          <entry key="XML" value="69" />
-          <entry key="YAML" value="29" />
-        </counts>
-      </usages-collector>
-    </session>
-    <session id="-1088773467">
-      <usages-collector id="statistics.lifecycle.project">
-        <counts>
-          <entry key="project.closed" value="6" />
-          <entry key="project.open.time.1" value="4" />
-          <entry key="project.open.time.2" value="1" />
-          <entry key="project.open.time.4" value="1" />
-          <entry key="project.opened" value="6" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.edit">
-        <counts>
-          <entry key="java" value="651" />
-          <entry key="txt" value="8" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.edit">
-        <counts>
-          <entry key="JAVA" value="651" />
-          <entry key="PLAIN_TEXT" value="8" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.open">
-        <counts>
-          <entry key="java" value="19" />
-          <entry key="xml" value="1" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.open">
-        <counts>
-          <entry key="JAVA" value="19" />
-          <entry key="XML" value="1" />
-        </counts>
-      </usages-collector>
-    </session>
-  </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="22" selection-start-line="21" selection-end-line="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/system/src/main/java/com/yzm/system/mapper/AvatarMapper.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="16" column="17" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/system/src/main/java/com/yzm/system/security/CustomTokenFilter.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-169">
-              <caret line="27" column="13" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/system/src/main/java/com/yzm/system/security/CustomAuthProvider.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="562">
-              <caret line="59" selection-start-line="59" selection-end-line="59" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/system/src/main/java/com/yzm/system/security/CustomLoginFormFilter.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="358">
-              <caret line="132" column="61" lean-forward="true" selection-start-line="132" selection-start-column="61" selection-end-line="132" selection-end-column="61" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/system/src/main/java/com/yzm/system/entity/PhotoAlbum.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="30" column="29" selection-start-line="30" selection-start-column="29" selection-end-line="30" selection-end-column="29" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/system/src/main/java/com/yzm/system/entity/Photo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="30" column="25" selection-start-line="30" selection-start-column="25" selection-end-line="30" selection-end-column="25" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/system/src/main/java/com/yzm/system/controller/AvatarController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="595">
-              <caret line="50" column="5" selection-start-line="43" selection-start-column="4" selection-end-line="50" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/system/src/main/java/com/yzm/system/service/impl/AvatarServiceImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="36" selection-start-column="36" selection-end-column="36" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/system/src/main/java/com/yzm/system/service/impl/PhotoServiceImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="15" column="8" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -352,96 +92,12 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="GradleLocalSettings">
-    <option name="projectSyncType">
-      <map>
-        <entry key="$USER_HOME$/Desktop/12源代码/ghms/源代码" value="PREVIEW" />
-        <entry key="$USER_HOME$/Desktop/12源代码/ghms/源代码/ghms" value="PREVIEW" />
-        <entry key="$USER_HOME$/Desktop/ghms" value="PREVIEW" />
-      </map>
-    </option>
-  </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/common/src/main/java/com/yzm/common/constant/CoreConstant.java" />
-        <option value="$PROJECT_DIR$/system/src/main/java/com/yzm/system/entity/LoginSetting.java" />
-        <option value="$PROJECT_DIR$/system/src/main/java/com/yzm/system/query/SettingQuery.java" />
-        <option value="$PROJECT_DIR$/system/src/main/java/com/yzm/system/security/CustomSecurityConfig.java" />
-        <option value="$PROJECT_DIR$/system/src/main/java/com/yzm/system/controller/AvatarController.java" />
-        <option value="$PROJECT_DIR$/system/src/main/java/com/yzm/system/controller/DeptController.java" />
-        <option value="$PROJECT_DIR$/system/src/main/java/com/yzm/system/controller/MenuController.java" />
-        <option value="$PROJECT_DIR$/system/src/main/java/com/yzm/system/controller/RoleController.java" />
-        <option value="$PROJECT_DIR$/system/src/main/java/com/yzm/system/controller/UserController.java" />
-        <option value="$PROJECT_DIR$/common/src/main/java/com/yzm/common/util/CpuUtil.java" />
-        <option value="$PROJECT_DIR$/common/pom.xml" />
-        <option value="$PROJECT_DIR$/chat/pom.xml" />
-        <option value="$PROJECT_DIR$/loging/pom.xml" />
-        <option value="$PROJECT_DIR$/common/src/main/java/com/yzm/common/vo/PageVO.java" />
-        <option value="$PROJECT_DIR$/common/src/main/java/com/yzm/common/vo/ResultVO.java" />
-        <option value="$PROJECT_DIR$/system/src/main/java/com/yzm/system/controller/vo/UserVO.java" />
-        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/b6c41dfb-757c-4c5a-a1d6-87cf1f28a76c/console.sql" />
-        <option value="$PROJECT_DIR$/message/pom.xml" />
-        <option value="$PROJECT_DIR$/message/src/main/java/com/yzm/message/entity/MessageEntity.java" />
-        <option value="$PROJECT_DIR$/message/src/main/java/com/yzm/message/mapper/MessageMapper.java" />
-        <option value="$PROJECT_DIR$/message/src/main/java/com/yzm/message/service/MessageService.java" />
-        <option value="$PROJECT_DIR$/message/src/main/java/com/yzm/message/entity/UserMessageEntity.java" />
-        <option value="$PROJECT_DIR$/message/src/main/java/com/yzm/message/service/impl/MessageServiceImpl.java" />
-        <option value="$PROJECT_DIR$/message/src/main/java/com/yzm/message/mapper/UserMessageMapper.java" />
-        <option value="$PROJECT_DIR$/message/src/main/java/com/yzm/message/controller/MessageController.java" />
-        <option value="$PROJECT_DIR$/system/src/main/java/com/yzm/system/entity/UserMessageEntity.java" />
-        <option value="$PROJECT_DIR$/system/src/main/java/com/yzm/system/service/MessageService.java" />
-        <option value="$PROJECT_DIR$/system/src/main/java/com/yzm/system/service/impl/MessageServiceImpl.java" />
-        <option value="$PROJECT_DIR$/system/src/main/java/com/yzm/system/mapper/UserMessageMapper.java" />
-        <option value="$PROJECT_DIR$/system/src/main/java/com/yzm/system/controller/vo/MessageVO.java" />
-        <option value="$PROJECT_DIR$/system/src/main/java/com/yzm/system/security/CustomAuthProvider.java" />
-        <option value="$PROJECT_DIR$/system/src/main/java/com/yzm/system/security/CustomLoginFormFilter.java" />
-        <option value="$PROJECT_DIR$/system/src/main/java/com/yzm/system/mapper/UserMapper.java" />
-        <option value="$PROJECT_DIR$/system/src/main/java/com/yzm/system/SystemApplication.java" />
-        <option value="$PROJECT_DIR$/system/src/main/java/com/yzm/system/mapper/MessageMapper.java" />
-        <option value="$PROJECT_DIR$/system/src/main/java/com/yzm/system/controller/MessageController.java" />
-        <option value="$PROJECT_DIR$/system/src/main/resources/application-dev.yml" />
-        <option value="$PROJECT_DIR$/system/src/main/java/com/yzm/system/controller/LoginSettingController.java" />
-        <option value="$PROJECT_DIR$/system/src/main/java/com/yzm/system/service/impl/UserServiceImpl.java" />
-        <option value="$PROJECT_DIR$/system/pom.xml" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/system/src/main/java/com/yzm/system/config/CustomExceptionHandler.java" />
-        <option value="$PROJECT_DIR$/system/src/main/java/com/yzm/system/mapper/PhotoAlbumMapper.java" />
-        <option value="$PROJECT_DIR$/system/src/main/java/com/yzm/system/mapper/PhotoMapper.java" />
-        <option value="$PROJECT_DIR$/system/src/main/java/com/yzm/system/service/PhotoAlbumService.java" />
-        <option value="$PROJECT_DIR$/system/src/main/java/com/yzm/system/service/PhotoService.java" />
-        <option value="$PROJECT_DIR$/system/src/main/java/com/yzm/system/service/impl/PhotoAlbumServiceImpl.java" />
-        <option value="$PROJECT_DIR$/system/src/main/java/com/yzm/system/service/impl/PhotoServiceImpl.java" />
-        <option value="$PROJECT_DIR$/system/src/main/java/com/yzm/system/entity/Photo.java" />
-        <option value="$PROJECT_DIR$/system/src/main/java/com/yzm/system/entity/PhotoAlbum.java" />
-        <option value="$PROJECT_DIR$/system/src/main/java/com/yzm/system/controller/PhotoAlbumController.java" />
-      </list>
-    </option>
-  </component>
-  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsGulpfileManager">
-    <detection-done>true</detection-done>
-    <sorting>DEFINITION_ORDER</sorting>
-  </component>
-  <component name="MavenImportPreferences">
-    <option name="importingSettings">
-      <MavenImportingSettings>
-        <option name="importAutomatically" value="true" />
-      </MavenImportingSettings>
-    </option>
-  </component>
-  <component name="MavenProjectNavigator">
-    <treeState>
-      <expand />
-      <select />
-    </treeState>
-  </component>
   <component name="ProjectFrameBounds" fullScreen="true">
     <option name="y" value="23" />
     <option name="width" value="728" />
     <option name="height" value="790" />
   </component>
+  <component name="ProjectId" id="1ZvwgmMNOD9DyQOyFBJSx8IZKSB" />
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
       <profile-state>
@@ -498,102 +154,9 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="oneadminparent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="oneadminparent" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="oneadminparent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="oneadminparent" type="462c0819:PsiDirectoryNode" />
-              <item name="system" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="oneadminparent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="oneadminparent" type="462c0819:PsiDirectoryNode" />
-              <item name="system" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="oneadminparent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="oneadminparent" type="462c0819:PsiDirectoryNode" />
-              <item name="system" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="oneadminparent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="oneadminparent" type="462c0819:PsiDirectoryNode" />
-              <item name="system" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="oneadminparent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="oneadminparent" type="462c0819:PsiDirectoryNode" />
-              <item name="system" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="oneadminparent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="oneadminparent" type="462c0819:PsiDirectoryNode" />
-              <item name="system" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="yzm" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="oneadminparent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="oneadminparent" type="462c0819:PsiDirectoryNode" />
-              <item name="system" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="yzm" type="462c0819:PsiDirectoryNode" />
-              <item name="system" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="oneadminparent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="oneadminparent" type="462c0819:PsiDirectoryNode" />
-              <item name="system" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="yzm" type="462c0819:PsiDirectoryNode" />
-              <item name="system" type="462c0819:PsiDirectoryNode" />
-              <item name="security" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="oneadminparent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="oneadminparent" type="462c0819:PsiDirectoryNode" />
-              <item name="system" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="AndroidView" />
-    </panes>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="DatabaseDriversLRU" value="oracle" />
@@ -601,6 +164,7 @@
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1585530363653" />
@@ -611,7 +175,10 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="editing.templates" />
+  </component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -628,18 +195,6 @@
       <recent name="$PROJECT_DIR$/system/src/main/resources" />
       <recent name="$PROJECT_DIR$/system/src/main/java/com/yzm/system" />
     </key>
-  </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
   </component>
   <component name="RunManager" selected="Spring Boot.SystemApplication">
     <configuration name="CpuUtil" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -677,9 +232,9 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Spring Boot.SystemApplication" />
       <item itemvalue="Application.OsUtil" />
       <item itemvalue="Application.CpuUtil" />
+      <item itemvalue="Spring Boot.SystemApplication" />
     </list>
     <recent_temporary>
       <list>
@@ -727,6 +282,13 @@
       <workItem from="1585205084664" duration="2919000" />
       <workItem from="1585539142734" duration="417000" />
       <workItem from="1585642545630" duration="587000" />
+      <workItem from="1585732990979" duration="511000" />
+      <workItem from="1586748937424" duration="557000" />
+      <workItem from="1586843900915" duration="685000" />
+      <workItem from="1586844700978" duration="1988000" />
+      <workItem from="1587104970662" duration="1093000" />
+      <workItem from="1587610934410" duration="3524000" />
+      <workItem from="1587863335798" duration="913000" />
     </task>
     <task id="LOCAL-00001" summary="部分修改">
       <created>1585200967861</created>
@@ -738,493 +300,95 @@
     <option name="localTasksCounter" value="2" />
     <servers />
   </component>
-  <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="123454000" />
-  </component>
-  <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
-    <layout>
-      <window_info id="Image Layers" order="0" />
-      <window_info id="UI Designer" order="1" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info id="Capture Tool" order="3" />
-      <window_info id="Web" order="4" side_tool="true" />
-      <window_info id="Designer" order="5" />
-      <window_info active="true" content_ui="combo" id="Project" order="6" visible="true" weight="0.2074392" />
-      <window_info id="Structure" order="7" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="0" weight="0.32891566" />
-      <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="2" weight="0.32891566" />
-      <window_info anchor="bottom" id="Java Enterprise" order="3" weight="0.32891566" />
-      <window_info anchor="bottom" id="Database Changes" order="4" />
-      <window_info anchor="bottom" id="Version Control" order="5" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Spring" order="6" weight="0.32891566" />
-      <window_info anchor="bottom" id="Message" order="7" />
-      <window_info anchor="bottom" id="Find" order="8" weight="0.32891566" />
-      <window_info anchor="bottom" id="Run" order="9" weight="0.32891566" />
-      <window_info anchor="bottom" id="Debug" order="10" weight="0.33975902" />
-      <window_info anchor="bottom" id="Cvs" order="11" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="12" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="13" />
-      <window_info anchor="bottom" id="Database Console" order="14" weight="0.32891566" />
-      <window_info anchor="right" id="Capture Analysis" order="0" />
-      <window_info anchor="right" id="Maven Projects" order="1" weight="0.3297568" />
-      <window_info anchor="right" id="Database" order="2" weight="0.3297568" />
-      <window_info anchor="right" id="Palette&#9;" order="3" />
-      <window_info anchor="right" id="Theme Preview" order="4" />
-      <window_info anchor="right" id="Bean Validation" order="5" />
-      <window_info anchor="right" id="Palette" order="6" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="7" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="8" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="9" weight="0.25" />
-    </layout>
-  </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
-  </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
+    <option name="version" value="2" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="部分修改" />
     <option name="LAST_COMMIT_MESSAGE" value="部分修改" />
   </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/message/src/main/java/com/yzm/message/mapper/UserMessageMapper.java" />
-    <entry file="file://$PROJECT_DIR$/common/src/main/java/com/yzm/common/vo/PageVO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="19" column="15" selection-start-line="19" selection-start-column="15" selection-end-line="19" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/message/src/main/java/com/yzm/message/controller/MessageController.java" />
-    <entry file="file://$PROJECT_DIR$/system/src/main/java/com/yzm/system/controller/MenuController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="27" column="13" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/system/src/main/java/com/yzm/system/entity/UserMessage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/system/src/main/java/com/yzm/system/service/MessageService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="12" column="62" selection-start-line="12" selection-start-column="49" selection-end-line="12" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/system/src/main/java/com/yzm/system/entity/Message.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="23" column="31" selection-start-line="17" selection-end-line="23" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-web/5.2.1.RELEASE/spring-security-web-5.2.1.RELEASE.jar!/org/springframework/security/web/FilterChainProxy.class" />
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-core/5.2.1.RELEASE/spring-security-core-5.2.1.RELEASE.jar!/org/springframework/security/authentication/ProviderManager.class" />
-    <entry file="file://$PROJECT_DIR$/system/src/main/java/com/yzm/system/controller/vo/MessageVO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="21" column="46" selection-start-line="21" selection-start-column="46" selection-end-line="21" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/system/src/main/java/com/yzm/system/mapper/UserMessageMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="18" column="7" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/system/src/main/java/com/yzm/system/SystemApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="25" column="14" lean-forward="true" selection-start-line="25" selection-start-column="14" selection-end-line="25" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/system/src/main/java/com/yzm/system/controller/MessageController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="935">
-          <caret line="55" column="35" selection-start-line="55" selection-start-column="35" selection-end-line="55" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/system/src/main/java/com/yzm/system/mapper/MessageMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="20" column="19" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/system/src/main/java/com/yzm/system/entity/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="663">
-          <caret line="49" column="28" selection-start-line="33" selection-start-column="4" selection-end-line="49" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/system/src/main/java/com/yzm/system/entity/Role.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="31" column="28" selection-start-line="23" selection-start-column="3" selection-end-line="31" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/system/src/main/java/com/yzm/system/entity/Menu.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="29" column="29" selection-start-line="29" selection-start-column="29" selection-end-line="29" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/system/src/main/java/com/yzm/system/entity/Dept.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="19" column="27" lean-forward="true" selection-start-line="19" selection-start-column="27" selection-end-line="19" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/system/src/main/java/com/yzm/system/service/impl/IndexServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/system/src/main/java/com/yzm/system/service/impl/MessageServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="16" column="103" selection-start-line="16" selection-start-column="93" selection-end-line="16" selection-end-column="103" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/system/src/main/java/com/yzm/system/service/impl/MonitorServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="22" column="14" selection-start-line="22" selection-start-column="14" selection-end-line="22" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/system/src/main/java/com/yzm/system/controller/LoginController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="293">
-          <caret line="29" column="16" selection-start-line="29" selection-start-column="16" selection-end-line="29" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/system/src/main/java/com/yzm/system/mapper/UserMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="23" column="22" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/system/src/main/java/com/yzm/system/service/impl/LoginSettingServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="15" column="8" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/system/src/main/java/com/yzm/system/service/impl/UserServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="901">
-          <caret line="83" column="48" selection-start-line="83" selection-start-column="48" selection-end-line="83" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/system/src/main/java/com/yzm/system/controller/UserController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="42" column="13" selection-start-line="42" selection-start-column="13" selection-end-line="42" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/system/src/main/java/com/yzm/system/controller/IndexController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="28" column="35" selection-start-line="28" selection-start-column="35" selection-end-line="28" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/loging/pom.xml">
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="23" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/src/main/java/com/yzm/common/enums/ResultEnum.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="12" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/system/src/main/java/com/yzm/system/config/CustomExceptionHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="22" selection-start-line="22" selection-end-line="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/system/pom.xml">
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="17" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/system/src/main/java/com/yzm/system/controller/LoginSettingController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1360">
-          <caret line="101" column="35" selection-start-line="101" selection-start-column="35" selection-end-line="101" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/system/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/system/src/main/resources/application-dev.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1377">
-          <caret line="81" column="26" selection-start-line="81" selection-start-column="26" selection-end-line="81" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/system/src/main/java/com/yzm/system/entity/Avatar.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="28" column="28" lean-forward="true" selection-start-line="19" selection-start-column="4" selection-end-line="28" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/system/src/main/java/com/yzm/system/mapper/PhotoAlbumMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="63" selection-start-line="16" selection-start-column="63" selection-end-line="16" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/system/src/main/java/com/yzm/system/mapper/PhotoMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="53" selection-start-line="16" selection-start-column="53" selection-end-line="16" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/system/src/main/java/com/yzm/system/service/PhotoAlbumService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="62" selection-start-line="12" selection-start-column="62" selection-end-line="12" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/system/src/main/java/com/yzm/system/service/PhotoService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="52" selection-start-line="12" selection-start-column="52" selection-end-line="12" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/system/src/main/java/com/yzm/system/service/impl/PhotoAlbumServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="15" column="8" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/system/src/main/java/com/yzm/system/controller/PhotoAlbumController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="799">
-          <caret line="59" column="24" selection-start-line="59" selection-start-column="24" selection-end-line="59" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/system/src/main/java/com/yzm/system/entity/PhotoAlbum.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="30" column="29" selection-start-line="30" selection-start-column="29" selection-end-line="30" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/system/src/main/java/com/yzm/system/entity/Photo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="30" column="25" selection-start-line="30" selection-start-column="25" selection-end-line="30" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/system/src/main/java/com/yzm/system/controller/AvatarController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="595">
-          <caret line="50" column="5" selection-start-line="43" selection-start-column="4" selection-end-line="50" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/system/src/main/java/com/yzm/system/service/impl/AvatarServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="36" selection-start-column="36" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/system/src/main/java/com/yzm/system/service/impl/PhotoServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="15" column="8" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="22" selection-start-line="21" selection-end-line="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/system/src/main/java/com/yzm/system/mapper/AvatarMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="16" column="17" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/system/src/main/java/com/yzm/system/security/CustomTokenFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-169">
-          <caret line="27" column="13" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/system/src/main/java/com/yzm/system/security/CustomAuthProvider.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="562">
-          <caret line="59" selection-start-line="59" selection-end-line="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/system/src/main/java/com/yzm/system/security/CustomLoginFormFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="358">
-          <caret line="132" column="61" lean-forward="true" selection-start-line="132" selection-start-column="61" selection-end-line="132" selection-end-column="61" />
-        </state>
-      </provider>
-    </entry>
-  </component>
-  <component name="masterDetails">
-    <states>
-      <state key="ArtifactsStructureConfigurable.UI">
-        <settings>
-          <artifact-editor />
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="FacetStructureConfigurable.UI">
-        <settings>
-          <last-edited>Spring</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="GlobalLibrariesConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="JdkListConfigurable.UI">
-        <settings>
-          <last-edited>1.8</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ModuleStructureConfigurable.UI">
-        <settings>
-          <last-edited>loging</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-                <option value="0.6" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectJDKs.UI">
-        <settings>
-          <last-edited>1.8</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectLibrariesConfigurable.UI">
-        <settings>
-          <last-edited>Maven: ch.qos.logback:logback-classic:1.2.3</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-    </states>
+  <component name="WindowStateProjectService">
+    <state x="208" y="31" key="#Project_Structure" timestamp="1587620869877">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="208" y="31" key="#Project_Structure/0.0.1440.900@0.0.1440.900" timestamp="1587620869877" />
+    <state x="320" y="115" key="#SQL_Dialects" timestamp="1586843978327">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="320" y="115" key="#SQL_Dialects/0.0.1440.900@0.0.1440.900" timestamp="1586843978327" />
+    <state x="533" y="160" key="#com.intellij.ide.util.MemberChooser" timestamp="1587864085748">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="533" y="160" key="#com.intellij.ide.util.MemberChooser/0.0.1440.900@0.0.1440.900" timestamp="1587864085748" />
+    <state width="1398" height="362" key="GridCell.Tab.0.bottom" timestamp="1587623118614">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="362" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1587623118614" />
+    <state width="1398" height="431" key="GridCell.Tab.0.bottom/0.23.1440.801@0.23.1440.801" timestamp="1586844662728" />
+    <state width="1398" height="253" key="GridCell.Tab.0.bottom/0.23.1440.806@0.23.1440.806" timestamp="1586748975514" />
+    <state width="1398" height="362" key="GridCell.Tab.0.center" timestamp="1587623118613">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="362" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1587623118613" />
+    <state width="1398" height="431" key="GridCell.Tab.0.center/0.23.1440.801@0.23.1440.801" timestamp="1586844662726" />
+    <state width="1398" height="253" key="GridCell.Tab.0.center/0.23.1440.806@0.23.1440.806" timestamp="1586748975512" />
+    <state width="1398" height="362" key="GridCell.Tab.0.left" timestamp="1587623118612">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="362" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1587623118612" />
+    <state width="1398" height="431" key="GridCell.Tab.0.left/0.23.1440.801@0.23.1440.801" timestamp="1586844662726" />
+    <state width="1398" height="253" key="GridCell.Tab.0.left/0.23.1440.806@0.23.1440.806" timestamp="1586748975511" />
+    <state width="1398" height="362" key="GridCell.Tab.0.right" timestamp="1587623118614">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="362" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1587623118614" />
+    <state width="1398" height="431" key="GridCell.Tab.0.right/0.23.1440.801@0.23.1440.801" timestamp="1586844662727" />
+    <state width="1398" height="253" key="GridCell.Tab.0.right/0.23.1440.806@0.23.1440.806" timestamp="1586748975513" />
+    <state width="1398" height="362" key="GridCell.Tab.1.bottom" timestamp="1587623118618">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="362" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1587623118618" />
+    <state width="1398" height="431" key="GridCell.Tab.1.bottom/0.23.1440.801@0.23.1440.801" timestamp="1586844662729" />
+    <state width="1398" height="362" key="GridCell.Tab.1.center" timestamp="1587623118617">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="362" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1587623118617" />
+    <state width="1398" height="431" key="GridCell.Tab.1.center/0.23.1440.801@0.23.1440.801" timestamp="1586844662728" />
+    <state width="1398" height="362" key="GridCell.Tab.1.left" timestamp="1587623118615">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="362" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1587623118615" />
+    <state width="1398" height="431" key="GridCell.Tab.1.left/0.23.1440.801@0.23.1440.801" timestamp="1586844662728" />
+    <state width="1398" height="362" key="GridCell.Tab.1.right" timestamp="1587623118618">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="362" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1587623118618" />
+    <state width="1398" height="431" key="GridCell.Tab.1.right/0.23.1440.801@0.23.1440.801" timestamp="1586844662729" />
+    <state width="1398" height="362" key="GridCell.Tab.2.bottom" timestamp="1587623118621">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="362" key="GridCell.Tab.2.bottom/0.0.1440.900@0.0.1440.900" timestamp="1587623118621" />
+    <state width="1398" height="431" key="GridCell.Tab.2.bottom/0.23.1440.801@0.23.1440.801" timestamp="1586844662731" />
+    <state width="1398" height="362" key="GridCell.Tab.2.center" timestamp="1587623118619">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="362" key="GridCell.Tab.2.center/0.0.1440.900@0.0.1440.900" timestamp="1587623118619" />
+    <state width="1398" height="431" key="GridCell.Tab.2.center/0.23.1440.801@0.23.1440.801" timestamp="1586844662730" />
+    <state width="1398" height="362" key="GridCell.Tab.2.left" timestamp="1587623118619">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="362" key="GridCell.Tab.2.left/0.0.1440.900@0.0.1440.900" timestamp="1587623118619" />
+    <state width="1398" height="431" key="GridCell.Tab.2.left/0.23.1440.801@0.23.1440.801" timestamp="1586844662729" />
+    <state width="1398" height="362" key="GridCell.Tab.2.right" timestamp="1587623118620">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="362" key="GridCell.Tab.2.right/0.0.1440.900@0.0.1440.900" timestamp="1587623118620" />
+    <state width="1398" height="431" key="GridCell.Tab.2.right/0.23.1440.801@0.23.1440.801" timestamp="1586844662730" />
+    <state x="411" y="90" key="SettingsEditor" timestamp="1587864252517">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="411" y="90" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1587864252517" />
+    <state x="443" y="102" key="SettingsEditor/0.23.1440.801@0.23.1440.801" timestamp="1586845269094" />
   </component>
   <component name="mavenExecuteGoalHistory">
     <option value="$PROJECT_DIR$/system" />

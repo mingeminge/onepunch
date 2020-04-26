@@ -42,7 +42,6 @@ import java.util.*;
 @Slf4j
 public class CustomLoginFormFilter extends UsernamePasswordAuthenticationFilter {
 
-
     private AuthenticationManager authenticationManager;
 
     private RedisUtil redisUtil;
