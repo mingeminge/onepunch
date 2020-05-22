@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="zm-common" />
+        <module name="zm-system" />
+        <module name="zm-loging" />
+        <module name="zm-zone" />
+        <module name="zm-admin" />
+      </profile>
+    </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="zm-admin" options="-parameters" />
+      <module name="zm-common" options="-parameters" />
+      <module name="zm-loging" options="-parameters" />
+      <module name="zm-system" options="-parameters" />
+      <module name="zm-zone" options="-parameters" />
+    </option>
+  </component>
+</project>

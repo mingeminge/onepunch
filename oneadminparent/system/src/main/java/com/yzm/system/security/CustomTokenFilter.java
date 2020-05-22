@@ -27,7 +27,7 @@ import java.util.ArrayList;
 
 public class CustomTokenFilter extends BasicAuthenticationFilter {
 
-    private RedisUtil redisUtil;
+    private final RedisUtil redisUtil;
 
     private static final String ROLE_LOGIN = "ROLE_LOGIN";
 

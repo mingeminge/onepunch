@@ -31,7 +31,7 @@ import java.util.Collection;
 @Component
 public class CustomAuthProvider implements AuthenticationProvider {
 
-    private UserService userService;
+    private final UserService userService;
 
     @Autowired
     public CustomAuthProvider(UserService userService) {

@@ -2,64 +2,143 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d14d7043-0c9e-413f-8230-068f6140871a" name="Default Changelist" comment="部分修改">
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/oneadminparent.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/system/src/main/java/com/yzm/system/config/ActiveMqConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/system/src/main/java/com/yzm/system/mq/QueueConsumer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/system/src/main/java/com/yzm/system/service/MqService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/system/src/main/java/com/yzm/system/service/impl/MqServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/system/src/main/resources/banner.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/system/src/main/java/com/yzm/system/task/ImgTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../zm-parent/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../zm-parent/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../zm-parent/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../zm-parent/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../zm-parent/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../zm-parent/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../zm-parent/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../zm-parent/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../zm-parent/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../zm-parent/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../zm-parent/zm-admin/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../zm-parent/zm-admin/src/main/java/com/zm/admin/dto/MenuDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../zm-parent/zm-admin/src/main/java/com/zm/admin/dto/RoleDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../zm-parent/zm-admin/src/main/java/com/zm/admin/dto/UserDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../zm-parent/zm-admin/src/main/java/com/zm/admin/entity/Dept.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../zm-parent/zm-admin/src/main/java/com/zm/admin/entity/Menu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../zm-parent/zm-admin/src/main/java/com/zm/admin/entity/Role.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../zm-parent/zm-admin/src/main/java/com/zm/admin/entity/RoleDept.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../zm-parent/zm-admin/src/main/java/com/zm/admin/entity/RoleMenu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../zm-parent/zm-admin/src/main/java/com/zm/admin/entity/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../zm-parent/zm-admin/src/main/java/com/zm/admin/entity/UserRole.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../zm-parent/zm-admin/src/main/java/com/zm/admin/mapper/DeptMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../zm-parent/zm-admin/src/main/java/com/zm/admin/mapper/MenuMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../zm-parent/zm-admin/src/main/java/com/zm/admin/mapper/RoleDeptMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../zm-parent/zm-admin/src/main/java/com/zm/admin/mapper/RoleMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../zm-parent/zm-admin/src/main/java/com/zm/admin/mapper/RoleMenuMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../zm-parent/zm-admin/src/main/java/com/zm/admin/mapper/UserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../zm-parent/zm-admin/src/main/java/com/zm/admin/mapper/UserRoleMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../zm-parent/zm-admin/src/main/java/com/zm/admin/service/IDeptService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../zm-parent/zm-admin/src/main/java/com/zm/admin/service/IMenuService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../zm-parent/zm-admin/src/main/java/com/zm/admin/service/IRoleDeptService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../zm-parent/zm-admin/src/main/java/com/zm/admin/service/IRoleMenuService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../zm-parent/zm-admin/src/main/java/com/zm/admin/service/IRoleService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../zm-parent/zm-admin/src/main/java/com/zm/admin/service/IUserRoleService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../zm-parent/zm-admin/src/main/java/com/zm/admin/service/IUserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../zm-parent/zm-admin/src/main/java/com/zm/admin/service/impl/DeptServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../zm-parent/zm-admin/src/main/java/com/zm/admin/service/impl/MenuServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../zm-parent/zm-admin/src/main/java/com/zm/admin/service/impl/RoleDeptServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../zm-parent/zm-admin/src/main/java/com/zm/admin/service/impl/RoleMenuServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../zm-parent/zm-admin/src/main/java/com/zm/admin/service/impl/RoleServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../zm-parent/zm-admin/src/main/java/com/zm/admin/service/impl/UserRoleServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../zm-parent/zm-admin/src/main/java/com/zm/admin/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../zm-parent/zm-admin/src/main/java/com/zm/admin/vo/DeptVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../zm-parent/zm-admin/src/main/java/com/zm/admin/vo/MenuVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../zm-parent/zm-admin/src/main/java/com/zm/admin/vo/RoleVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../zm-parent/zm-admin/src/main/java/com/zm/admin/vo/UserVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../zm-parent/zm-admin/src/main/java/com/zm/admin/wrapper/MenuWrapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../zm-parent/zm-admin/src/main/java/com/zm/admin/wrapper/RoleWrapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../zm-parent/zm-admin/src/main/java/com/zm/admin/wrapper/UserWrapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../zm-parent/zm-common/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../zm-parent/zm-common/src/main/java/com/zm/common/contant/TokenConstant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../zm-parent/zm-common/src/main/java/com/zm/common/enums/ResultEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../zm-parent/zm-common/src/main/java/com/zm/common/enums/UserStatusEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../zm-parent/zm-common/src/main/java/com/zm/common/exception/ZmException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../zm-parent/zm-common/src/main/java/com/zm/common/query/BaseQuery.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../zm-parent/zm-common/src/main/java/com/zm/common/result/R.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../zm-parent/zm-common/src/main/java/com/zm/common/utils/Base64Util.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../zm-parent/zm-common/src/main/java/com/zm/common/utils/CopyUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../zm-parent/zm-common/src/main/java/com/zm/common/utils/HttpClientUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../zm-parent/zm-common/src/main/java/com/zm/common/utils/JsonUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../zm-parent/zm-common/src/main/java/com/zm/common/utils/RedisUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../zm-parent/zm-common/src/main/java/com/zm/common/utils/SftpUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../zm-parent/zm-common/src/main/java/com/zm/common/wrapper/BaseEntityWrapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../zm-parent/zm-log/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../zm-parent/zm-log/src/main/java/com/zm/log/annotation/LogAnnotation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../zm-parent/zm-log/src/main/java/com/zm/log/aop/LogAspect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../zm-parent/zm-log/src/main/java/com/zm/log/entity/SysLog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../zm-parent/zm-log/src/main/java/com/zm/log/entity/SysLoginLog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../zm-parent/zm-log/src/main/java/com/zm/log/mapper/SysLogMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../zm-parent/zm-log/src/main/java/com/zm/log/mapper/SysLoginLogMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../zm-parent/zm-log/src/main/java/com/zm/log/service/ISysLogService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../zm-parent/zm-log/src/main/java/com/zm/log/service/ISysLoginLogService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../zm-parent/zm-log/src/main/java/com/zm/log/service/impl/SysLogServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../zm-parent/zm-log/src/main/java/com/zm/log/service/impl/SysLoginLogServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../zm-parent/zm-system/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../zm-parent/zm-system/src/main/java/com/zm/system/ZmApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../zm-parent/zm-system/src/main/java/com/zm/system/config/CorsConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../zm-parent/zm-system/src/main/java/com/zm/system/config/CustomExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../zm-parent/zm-system/src/main/java/com/zm/system/config/ZmSecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../zm-parent/zm-system/src/main/java/com/zm/system/filter/ZmLoginFormFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../zm-parent/zm-system/src/main/java/com/zm/system/filter/ZmTokenFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../zm-parent/zm-system/src/main/java/com/zm/system/handler/ZmLogoutHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../zm-parent/zm-system/src/main/java/com/zm/system/pojo/SystemUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../zm-parent/zm-system/src/main/java/com/zm/system/provider/ZmAuthProvider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../zm-parent/zm-system/src/main/java/com/zm/system/service/UserDetailsServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../zm-parent/zm-system/src/main/resources/application-dev.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../zm-parent/zm-system/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../zm-parent/zm-zone/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../one-ui/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../one-ui/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../one-ui/src/router/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../one-ui/src/router/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../one-ui/src/views/zone/photo/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../one-ui/src/views/zone/photo/index.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/com/yzm/common/enums/ResultEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/yzm/common/enums/ResultEnum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/com/yzm/common/util/RedisUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/yzm/common/util/RedisUtil.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/common/target/classes/com/yzm/common/enums/ResultEnum.class" beforeDir="false" afterPath="$PROJECT_DIR$/common/target/classes/com/yzm/common/enums/ResultEnum.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/com/yzm/common/query/BaseQuery.class" beforeDir="false" afterPath="$PROJECT_DIR$/common/target/classes/com/yzm/common/query/BaseQuery.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/com/yzm/common/util/Base64Util.class" beforeDir="false" afterPath="$PROJECT_DIR$/common/target/classes/com/yzm/common/util/Base64Util.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/com/yzm/common/util/CopyUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/common/target/classes/com/yzm/common/util/CopyUtil.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/com/yzm/common/util/EasyExcelUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/common/target/classes/com/yzm/common/util/EasyExcelUtil.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/com/yzm/common/util/FileUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/common/target/classes/com/yzm/common/util/FileUtil.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/com/yzm/common/util/HttpClientUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/common/target/classes/com/yzm/common/util/HttpClientUtil.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/com/yzm/common/util/JsonUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/common/target/classes/com/yzm/common/util/JsonUtil.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/com/yzm/common/util/OsUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/common/target/classes/com/yzm/common/util/OsUtil.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/common/target/classes/com/yzm/common/util/RedisUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/common/target/classes/com/yzm/common/util/RedisUtil.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/com/yzm/common/util/SftpProperties.class" beforeDir="false" afterPath="$PROJECT_DIR$/common/target/classes/com/yzm/common/util/SftpProperties.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/com/yzm/common/vo/PageVO.class" beforeDir="false" afterPath="$PROJECT_DIR$/common/target/classes/com/yzm/common/vo/PageVO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/com/yzm/common/vo/ResultVO.class" beforeDir="false" afterPath="$PROJECT_DIR$/common/target/classes/com/yzm/common/vo/ResultVO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/loging/src/main/java/com/yzm/loging/service/impl/SystemLogServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/loging/src/main/java/com/yzm/loging/service/impl/SystemLogServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/loging/target/classes/com/yzm/loging/aop/LogAspect.class" beforeDir="false" afterPath="$PROJECT_DIR$/loging/target/classes/com/yzm/loging/aop/LogAspect.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/target/common-1.0.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/common/target/common-1.0.0.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/common/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/loging/src/main/java/com/yzm/loging/controller/SystemLogController.java" beforeDir="false" afterPath="$PROJECT_DIR$/loging/src/main/java/com/yzm/loging/controller/SystemLogController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/loging/target/classes/com/yzm/loging/controller/SystemLogController.class" beforeDir="false" afterPath="$PROJECT_DIR$/loging/target/classes/com/yzm/loging/controller/SystemLogController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/loging/target/classes/com/yzm/loging/entity/SystemLog.class" beforeDir="false" afterPath="$PROJECT_DIR$/loging/target/classes/com/yzm/loging/entity/SystemLog.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/loging/target/classes/com/yzm/loging/query/SystemLogQuery.class" beforeDir="false" afterPath="$PROJECT_DIR$/loging/target/classes/com/yzm/loging/query/SystemLogQuery.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/loging/target/loging-1.0.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/loging/target/loging-1.0.0.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/loging/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/loging/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/src/main/java/com/yzm/system/controller/MessageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/system/src/main/java/com/yzm/system/controller/MessageController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/src/main/java/com/yzm/system/controller/PhotoAlbumController.java" beforeDir="false" afterPath="$PROJECT_DIR$/system/src/main/java/com/yzm/system/controller/PhotoAlbumController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/src/main/java/com/yzm/system/controller/RoleController.java" beforeDir="false" afterPath="$PROJECT_DIR$/system/src/main/java/com/yzm/system/controller/RoleController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/src/main/java/com/yzm/system/security/CustomAuthProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/system/src/main/java/com/yzm/system/security/CustomAuthProvider.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/system/src/main/java/com/yzm/system/security/CustomLoginFormFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/system/src/main/java/com/yzm/system/security/CustomLoginFormFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/src/main/java/com/yzm/system/security/CustomSecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/system/src/main/java/com/yzm/system/security/CustomSecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/src/main/java/com/yzm/system/security/CustomTokenFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/system/src/main/java/com/yzm/system/security/CustomTokenFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/src/main/java/com/yzm/system/service/impl/DeptServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/system/src/main/java/com/yzm/system/service/impl/DeptServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/src/main/java/com/yzm/system/service/impl/MenuServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/system/src/main/java/com/yzm/system/service/impl/MenuServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/src/main/java/com/yzm/system/service/impl/RoleServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/system/src/main/java/com/yzm/system/service/impl/RoleServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/src/main/java/com/yzm/system/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/system/src/main/java/com/yzm/system/service/impl/UserServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/system/src/main/resources/application-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/system/src/main/resources/application-dev.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/src/main/resources/mapper/system/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/system/src/main/resources/mapper/system/UserMapper.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/system/target/classes/application-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/system/target/classes/application-dev.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/target/classes/com/yzm/system/controller/MessageController.class" beforeDir="false" afterPath="$PROJECT_DIR$/system/target/classes/com/yzm/system/controller/MessageController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/target/classes/com/yzm/system/controller/RoleController.class" beforeDir="false" afterPath="$PROJECT_DIR$/system/target/classes/com/yzm/system/controller/RoleController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/target/classes/com/yzm/system/security/CustomAuthProvider.class" beforeDir="false" afterPath="$PROJECT_DIR$/system/target/classes/com/yzm/system/security/CustomAuthProvider.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/system/target/classes/com/yzm/system/security/CustomLoginFormFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/system/target/classes/com/yzm/system/security/CustomLoginFormFilter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/target/classes/mapper/system/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/system/target/classes/mapper/system/UserMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/target/system-1.0.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/target/classes/com/yzm/system/security/CustomSecurityConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/system/target/classes/com/yzm/system/security/CustomSecurityConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/target/classes/com/yzm/system/security/CustomTokenFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/system/target/classes/com/yzm/system/security/CustomTokenFilter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/target/classes/com/yzm/system/service/impl/DeptServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/system/target/classes/com/yzm/system/service/impl/DeptServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/target/classes/com/yzm/system/service/impl/MenuServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/system/target/classes/com/yzm/system/service/impl/MenuServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/target/classes/com/yzm/system/service/impl/RoleServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/system/target/classes/com/yzm/system/service/impl/RoleServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/target/classes/com/yzm/system/service/impl/UserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/system/target/classes/com/yzm/system/service/impl/UserServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/system/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/system/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/target/system-1.0.0.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/system/target/system-1.0.0.jar.original" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="DatabaseView">
-    <option name="SHOW_INTERMEDIATE" value="true" />
-    <option name="GROUP_DATA_SOURCES" value="true" />
-    <option name="GROUP_SCHEMA" value="true" />
-    <option name="GROUP_CONTENTS" value="false" />
-    <option name="SORT_POSITIONED" value="false" />
-    <option name="SHOW_EMPTY_GROUPS" value="false" />
-    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
-    <option name="HIDDEN_KINDS">
-      <set />
-    </option>
-    <expand />
-    <select />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -69,25 +148,6 @@
         <option value="Class" />
       </list>
     </option>
-  </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>MenuVo</find>
-      <find>sort</find>
-      <find>buildMenus</find>
-      <find>iFrame</find>
-      <find>insert</find>
-      <find>build</find>
-      <find>delete</find>
-      <find>sendInfo</find>
-      <find>systemCpuLoad</find>
-      <find>sendMessage</find>
-      <find>buildDtoTree</find>
-      <find>getInfo</find>
-    </findStrings>
-    <replaceStrings>
-      <replace>MenuVO</replace>
-    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -172,6 +232,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -195,6 +256,11 @@
       <recent name="$PROJECT_DIR$/system/src/main/resources" />
       <recent name="$PROJECT_DIR$/system/src/main/java/com/yzm/system" />
     </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn clean package " />
+    </option>
   </component>
   <component name="RunManager" selected="Spring Boot.SystemApplication">
     <configuration name="CpuUtil" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -288,7 +354,19 @@
       <workItem from="1586844700978" duration="1988000" />
       <workItem from="1587104970662" duration="1093000" />
       <workItem from="1587610934410" duration="3524000" />
-      <workItem from="1587863335798" duration="913000" />
+      <workItem from="1587863335798" duration="2146000" />
+      <workItem from="1587865818237" duration="6697000" />
+      <workItem from="1588562321488" duration="242000" />
+      <workItem from="1588579599783" duration="2327000" />
+      <workItem from="1588647589214" duration="1946000" />
+      <workItem from="1588813539324" duration="3577000" />
+      <workItem from="1589014813819" duration="491000" />
+      <workItem from="1589249949431" duration="974000" />
+      <workItem from="1589252862225" duration="156000" />
+      <workItem from="1589337772058" duration="2047000" />
+      <workItem from="1589959494451" duration="3103000" />
+      <workItem from="1590023079374" duration="1437000" />
+      <workItem from="1590113635969" duration="14222000" />
     </task>
     <task id="LOCAL-00001" summary="部分修改">
       <created>1585200967861</created>
@@ -297,7 +375,14 @@
       <option name="project" value="LOCAL" />
       <updated>1585200967861</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="部分修改">
+      <created>1587864400298</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1587864400298</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -308,10 +393,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="部分修改" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="208" y="31" key="#Project_Structure" timestamp="1587620869877">
+    <state x="208" y="31" key="#Project_Structure" timestamp="1589959694703">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="208" y="31" key="#Project_Structure/0.0.1440.900@0.0.1440.900" timestamp="1587620869877" />
+    <state x="208" y="31" key="#Project_Structure/0.0.1440.900@0.0.1440.900" timestamp="1589959694703" />
     <state x="320" y="115" key="#SQL_Dialects" timestamp="1586843978327">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -320,75 +405,114 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="533" y="160" key="#com.intellij.ide.util.MemberChooser/0.0.1440.900@0.0.1440.900" timestamp="1587864085748" />
-    <state width="1398" height="362" key="GridCell.Tab.0.bottom" timestamp="1587623118614">
+    <state x="275" y="0" key="CommitChangelistDialog2" timestamp="1587864399302">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="362" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1587623118614" />
-    <state width="1398" height="431" key="GridCell.Tab.0.bottom/0.23.1440.801@0.23.1440.801" timestamp="1586844662728" />
+    <state x="275" y="0" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1587864399302" />
+    <state width="531" height="646" key="DebuggerActiveHint" timestamp="1590113886317">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="531" height="646" key="DebuggerActiveHint/0.0.1440.900@0.0.1440.900" timestamp="1590113886317" />
+    <state width="1398" height="362" key="GridCell.Tab.0.bottom" timestamp="1590138351358">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="362" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1590138351358" />
+    <state width="1398" height="362" key="GridCell.Tab.0.bottom/0.23.1440.794@0.23.1440.794" timestamp="1590023415778" />
+    <state width="1398" height="362" key="GridCell.Tab.0.bottom/0.23.1440.801@0.23.1440.801" timestamp="1590113730669" />
     <state width="1398" height="253" key="GridCell.Tab.0.bottom/0.23.1440.806@0.23.1440.806" timestamp="1586748975514" />
-    <state width="1398" height="362" key="GridCell.Tab.0.center" timestamp="1587623118613">
+    <state width="1398" height="362" key="GridCell.Tab.0.center" timestamp="1590138351357">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="362" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1587623118613" />
-    <state width="1398" height="431" key="GridCell.Tab.0.center/0.23.1440.801@0.23.1440.801" timestamp="1586844662726" />
+    <state width="1398" height="362" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1590138351357" />
+    <state width="1398" height="362" key="GridCell.Tab.0.center/0.23.1440.794@0.23.1440.794" timestamp="1590023415776" />
+    <state width="1398" height="362" key="GridCell.Tab.0.center/0.23.1440.801@0.23.1440.801" timestamp="1590113730668" />
     <state width="1398" height="253" key="GridCell.Tab.0.center/0.23.1440.806@0.23.1440.806" timestamp="1586748975512" />
-    <state width="1398" height="362" key="GridCell.Tab.0.left" timestamp="1587623118612">
+    <state width="1398" height="362" key="GridCell.Tab.0.left" timestamp="1590138351357">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="362" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1587623118612" />
-    <state width="1398" height="431" key="GridCell.Tab.0.left/0.23.1440.801@0.23.1440.801" timestamp="1586844662726" />
+    <state width="1398" height="362" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1590138351357" />
+    <state width="1398" height="362" key="GridCell.Tab.0.left/0.23.1440.794@0.23.1440.794" timestamp="1590023415776" />
+    <state width="1398" height="362" key="GridCell.Tab.0.left/0.23.1440.801@0.23.1440.801" timestamp="1590113730667" />
     <state width="1398" height="253" key="GridCell.Tab.0.left/0.23.1440.806@0.23.1440.806" timestamp="1586748975511" />
-    <state width="1398" height="362" key="GridCell.Tab.0.right" timestamp="1587623118614">
+    <state width="1398" height="362" key="GridCell.Tab.0.right" timestamp="1590138351358">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="362" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1587623118614" />
-    <state width="1398" height="431" key="GridCell.Tab.0.right/0.23.1440.801@0.23.1440.801" timestamp="1586844662727" />
+    <state width="1398" height="362" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1590138351358" />
+    <state width="1398" height="362" key="GridCell.Tab.0.right/0.23.1440.794@0.23.1440.794" timestamp="1590023415777" />
+    <state width="1398" height="362" key="GridCell.Tab.0.right/0.23.1440.801@0.23.1440.801" timestamp="1590113730668" />
     <state width="1398" height="253" key="GridCell.Tab.0.right/0.23.1440.806@0.23.1440.806" timestamp="1586748975513" />
-    <state width="1398" height="362" key="GridCell.Tab.1.bottom" timestamp="1587623118618">
+    <state width="1398" height="362" key="GridCell.Tab.1.bottom" timestamp="1590138351359">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="362" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1587623118618" />
-    <state width="1398" height="431" key="GridCell.Tab.1.bottom/0.23.1440.801@0.23.1440.801" timestamp="1586844662729" />
-    <state width="1398" height="362" key="GridCell.Tab.1.center" timestamp="1587623118617">
+    <state width="1398" height="362" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1590138351359" />
+    <state width="1398" height="362" key="GridCell.Tab.1.bottom/0.23.1440.790@0.23.1440.790" timestamp="1588579907080" />
+    <state width="1398" height="362" key="GridCell.Tab.1.bottom/0.23.1440.801@0.23.1440.801" timestamp="1590113850561" />
+    <state width="1398" height="362" key="GridCell.Tab.1.center" timestamp="1590138351359">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="362" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1587623118617" />
-    <state width="1398" height="431" key="GridCell.Tab.1.center/0.23.1440.801@0.23.1440.801" timestamp="1586844662728" />
-    <state width="1398" height="362" key="GridCell.Tab.1.left" timestamp="1587623118615">
+    <state width="1398" height="362" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1590138351359" />
+    <state width="1398" height="362" key="GridCell.Tab.1.center/0.23.1440.790@0.23.1440.790" timestamp="1588579907078" />
+    <state width="1398" height="362" key="GridCell.Tab.1.center/0.23.1440.801@0.23.1440.801" timestamp="1590113850560" />
+    <state width="1398" height="362" key="GridCell.Tab.1.left" timestamp="1590138351359">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="362" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1587623118615" />
-    <state width="1398" height="431" key="GridCell.Tab.1.left/0.23.1440.801@0.23.1440.801" timestamp="1586844662728" />
-    <state width="1398" height="362" key="GridCell.Tab.1.right" timestamp="1587623118618">
+    <state width="1398" height="362" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1590138351359" />
+    <state width="1398" height="362" key="GridCell.Tab.1.left/0.23.1440.790@0.23.1440.790" timestamp="1588579907077" />
+    <state width="1398" height="362" key="GridCell.Tab.1.left/0.23.1440.801@0.23.1440.801" timestamp="1590113850559" />
+    <state width="1398" height="362" key="GridCell.Tab.1.right" timestamp="1590138351359">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="362" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1587623118618" />
-    <state width="1398" height="431" key="GridCell.Tab.1.right/0.23.1440.801@0.23.1440.801" timestamp="1586844662729" />
-    <state width="1398" height="362" key="GridCell.Tab.2.bottom" timestamp="1587623118621">
+    <state width="1398" height="362" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1590138351359" />
+    <state width="1398" height="362" key="GridCell.Tab.1.right/0.23.1440.790@0.23.1440.790" timestamp="1588579907079" />
+    <state width="1398" height="362" key="GridCell.Tab.1.right/0.23.1440.801@0.23.1440.801" timestamp="1590113850560" />
+    <state width="1398" height="362" key="GridCell.Tab.2.bottom" timestamp="1590138351361">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="362" key="GridCell.Tab.2.bottom/0.0.1440.900@0.0.1440.900" timestamp="1587623118621" />
+    <state width="1398" height="362" key="GridCell.Tab.2.bottom/0.0.1440.900@0.0.1440.900" timestamp="1590138351361" />
     <state width="1398" height="431" key="GridCell.Tab.2.bottom/0.23.1440.801@0.23.1440.801" timestamp="1586844662731" />
-    <state width="1398" height="362" key="GridCell.Tab.2.center" timestamp="1587623118619">
+    <state width="1398" height="362" key="GridCell.Tab.2.center" timestamp="1590138351360">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="362" key="GridCell.Tab.2.center/0.0.1440.900@0.0.1440.900" timestamp="1587623118619" />
+    <state width="1398" height="362" key="GridCell.Tab.2.center/0.0.1440.900@0.0.1440.900" timestamp="1590138351360" />
     <state width="1398" height="431" key="GridCell.Tab.2.center/0.23.1440.801@0.23.1440.801" timestamp="1586844662730" />
-    <state width="1398" height="362" key="GridCell.Tab.2.left" timestamp="1587623118619">
+    <state width="1398" height="362" key="GridCell.Tab.2.left" timestamp="1590138351360">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="362" key="GridCell.Tab.2.left/0.0.1440.900@0.0.1440.900" timestamp="1587623118619" />
+    <state width="1398" height="362" key="GridCell.Tab.2.left/0.0.1440.900@0.0.1440.900" timestamp="1590138351360" />
     <state width="1398" height="431" key="GridCell.Tab.2.left/0.23.1440.801@0.23.1440.801" timestamp="1586844662729" />
-    <state width="1398" height="362" key="GridCell.Tab.2.right" timestamp="1587623118620">
+    <state width="1398" height="362" key="GridCell.Tab.2.right" timestamp="1590138351360">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="362" key="GridCell.Tab.2.right/0.0.1440.900@0.0.1440.900" timestamp="1587623118620" />
+    <state width="1398" height="362" key="GridCell.Tab.2.right/0.0.1440.900@0.0.1440.900" timestamp="1590138351360" />
     <state width="1398" height="431" key="GridCell.Tab.2.right/0.23.1440.801@0.23.1440.801" timestamp="1586844662730" />
     <state x="411" y="90" key="SettingsEditor" timestamp="1587864252517">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="411" y="90" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1587864252517" />
     <state x="443" y="102" key="SettingsEditor/0.23.1440.801@0.23.1440.801" timestamp="1586845269094" />
+    <state x="320" y="186" key="Vcs.Push.Dialog.v2" timestamp="1587864408998">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="320" y="186" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1587864408998" />
+    <state x="88" y="53" key="new project wizard" timestamp="1590115422415">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="88" y="53" key="new project wizard/0.0.1440.900@0.0.1440.900" timestamp="1590115422415" />
+    <state x="385" y="210" width="670" height="675" key="run.anything.popup" timestamp="1590024639637">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="385" y="210" width="670" height="675" key="run.anything.popup/0.0.1440.900@0.0.1440.900" timestamp="1590024639637" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/system/src/main/java/com/yzm/system/controller/MessageController.java</url>
+          <line>74</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="mavenExecuteGoalHistory">
     <option value="$PROJECT_DIR$/system" />

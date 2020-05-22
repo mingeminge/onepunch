@@ -9,15 +9,18 @@
         <module name="common" />
         <module name="system" />
         <module name="loging" />
+        <module name="admin" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="admin" target="1.8" />
       <module name="chat" target="1.8" />
       <module name="message" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="admin" options="-parameters" />
       <module name="common" options="-parameters" />
       <module name="loging" options="-parameters" />
       <module name="system" options="-parameters" />

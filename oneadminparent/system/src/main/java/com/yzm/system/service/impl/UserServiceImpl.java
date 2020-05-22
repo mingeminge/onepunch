@@ -7,9 +7,9 @@ import com.yzm.common.constant.CoreConstant;
 import com.yzm.common.enums.ResultEnum;
 import com.yzm.common.util.CopyUtil;
 import com.yzm.common.vo.PageVO;
+import com.yzm.system.controller.vo.UserVO;
 import com.yzm.system.entity.User;
 import com.yzm.system.entity.UserRole;
-import com.yzm.system.controller.vo.UserVO;
 import com.yzm.system.mapper.UserMapper;
 import com.yzm.system.mapper.UserRoleMapper;
 import com.yzm.system.query.UserQuery;
@@ -17,7 +17,6 @@ import com.yzm.system.service.UserService;
 import org.apache.commons.lang3.StringUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.cache.annotation.CacheConfig;
-import org.springframework.cache.annotation.Cacheable;
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;
@@ -43,9 +42,9 @@ import java.util.List;
 @CacheConfig(cacheNames = "user")
 public class UserServiceImpl extends ServiceImpl<UserMapper, User> implements UserService, UserDetailsService {
 
-    private UserMapper userMapper;
+    private final UserMapper userMapper;
 
-    private UserRoleMapper userRoleMapper;
+    private final UserRoleMapper userRoleMapper;
 
     private static final String DEFAULT_PASSWORD = "123456";
 

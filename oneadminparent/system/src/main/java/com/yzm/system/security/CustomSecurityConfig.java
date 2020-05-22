@@ -33,10 +33,10 @@ import org.springframework.web.cors.UrlBasedCorsConfigurationSource;
 @EnableGlobalMethodSecurity(prePostEnabled = true)
 public class CustomSecurityConfig extends WebSecurityConfigurerAdapter {
 
-    private UserService userService;
-    private CustomAuthProvider authProvider;
-    private RedisUtil redisUtil;
-    private LoginLogService loginLogService;
+    private final UserService userService;
+    private final CustomAuthProvider authProvider;
+    private final RedisUtil redisUtil;
+    private final LoginLogService loginLogService;
 
     @Autowired
     public CustomSecurityConfig(UserService userService, CustomAuthProvider authProvider, RedisUtil redisUtil, LoginLogService loginLogService) {

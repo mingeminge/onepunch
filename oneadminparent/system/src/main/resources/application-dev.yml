@@ -6,8 +6,8 @@ spring:
       enabled: always
   datasource:
     url: jdbc:mysql://47.104.20.179:3306/yc?allowMultiQueries=true&useUnicode=true&serverTimezone=Asia/Shanghai&useSSL=false
-    username: 
-    password: 
+    username: root
+    password: 123456
     driver-class-name: com.mysql.cj.jdbc.Driver
     type: com.alibaba.druid.pool.DruidDataSource
     druid:

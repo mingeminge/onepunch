@@ -34,11 +34,11 @@ import java.util.List;
 @Service
 public class RoleServiceImpl extends ServiceImpl<RoleMapper, Role> implements RoleService {
 
-    private RoleMapper roleMapper;
+    private final RoleMapper roleMapper;
 
-    private RoleMenuMapper roleMenuMapper;
+    private final RoleMenuMapper roleMenuMapper;
 
-    private RoleDeptMapper roleDeptMapper;
+    private final RoleDeptMapper roleDeptMapper;
 
     @Autowired
     public RoleServiceImpl(RoleMapper roleMapper, RoleMenuMapper roleMenuMapper, RoleDeptMapper roleDeptMapper) {

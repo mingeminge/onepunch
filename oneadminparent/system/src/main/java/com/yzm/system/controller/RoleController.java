@@ -35,6 +35,7 @@ public class RoleController {
 
     @GetMapping("/all")
     @PreAuthorize("hasAuthority('system:role:get')")
+    @LogAnnotation(moduleName = MODULE_NAME, methodName = "查看")
     public ResultVO list() {
         List<Role> roleList = roleService.list();
         return ResultVO.ok(roleList);

@@ -11,6 +11,9 @@ import lombok.Getter;
  */
 @Getter
 public enum ResultEnum {
+    /**
+     *
+     */
     PLEASE_LOGIN(0, "请登陆"),
     USERNAME_PASSWORD_ERROR(1, "账号或密码错误"),
     UNKNOWN_ACCOUNT(3, "该用户不存在"),

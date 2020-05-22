@@ -3,6 +3,7 @@ package com.yzm.system.controller;
 import com.yzm.common.util.CopyUtil;
 import com.yzm.common.vo.PageVO;
 import com.yzm.common.vo.ResultVO;
+import com.yzm.loging.annotation.LogAnnotation;
 import com.yzm.system.controller.vo.MessageVO;
 import com.yzm.system.entity.Message;
 import com.yzm.system.entity.User;
@@ -32,6 +33,8 @@ import java.util.stream.Collectors;
 @RequestMapping("/message")
 public class MessageController {
 
+    private static final String MODULE_NAME = "留言板";
+
     private MessageService messageService;
 
     private UserMessageMapper userMessageMapper;
@@ -41,14 +44,15 @@ public class MessageController {
     private MessageMapper messageMapper;
 
     @Autowired
-    public MessageController(MessageService messageService, UserMessageMapper userMessageMapper, UserMapper userMapper,MessageMapper messageMapper) {
+    public MessageController(MessageService messageService, UserMessageMapper userMessageMapper, UserMapper userMapper, MessageMapper messageMapper) {
         this.messageService = messageService;
         this.userMessageMapper = userMessageMapper;
         this.userMapper = userMapper;
-        this.messageMapper=messageMapper;
+        this.messageMapper = messageMapper;
     }
 
     @PostMapping("/save")
+    @LogAnnotation(moduleName = MODULE_NAME, methodName = "留言")
     public ResultVO save(@RequestBody Message message) {
         String username = SecurityContextHolder.getContext().getAuthentication().getPrincipal().toString();
         User byUsername = userMapper.findByUsername(username);
@@ -64,25 +68,18 @@ public class MessageController {
     }
 
     @GetMapping("/list")
+    @LogAnnotation(moduleName = MODULE_NAME, methodName = "查看")
     public PageVO messageList() {
-        String username = SecurityContextHolder.getContext().getAuthentication().getPrincipal().toString();
-
         List<UserMessage> userMessageEntities = userMessageMapper.selectList(null);
-
         List<MessageVO> messageVOList = new ArrayList<>();
         userMessageEntities.forEach(userMessage -> {
             Message byId = messageService.getById(userMessage.getMessageId());
             MessageVO messageVO = CopyUtil.copyProperties(byId, MessageVO.class);
-
             User byUserId = userMapper.findByUserId(userMessage.getUserId());
-
             messageVO.setAvatar(byUserId.getAvatar());
             messageVO.setUsername(byUserId.getUsername());
-
             messageVOList.add(messageVO);
-
         });
-
         List<MessageVO> messageVOS = messageVOList.stream().sorted(Comparator.comparing(messageVO -> messageVO.getTime(), Comparator.reverseOrder())).collect(Collectors.toList());
         if (messageVOS.size() > 0) {
             return PageVO.build(Long.valueOf(messageVOS.size()), messageVOS);

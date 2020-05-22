@@ -1,0 +1,59 @@
+server:
+  port: 8081
+spring:
+  output:
+    ansi:
+      enabled: always
+  datasource:
+    url: jdbc:mysql://localhost:3306/zm-one?allowMultiQueries=true&useUnicode=true&serverTimezone=Asia/Shanghai&useSSL=false
+    username: root
+    password: 123456
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    type: com.zaxxer.hikari.HikariDataSource
+  jackson:
+    default-property-inclusion: non_null
+  redis:
+    port: 6379
+    host: 47.104.20.179
+    password: 135790
+    database: 0
+    jedis:
+      pool:
+        max-active: 1000
+        max-idle: 100
+        max-wait: 1ms
+        min-idle: 5
+  activemq:
+    broker-url: tcp://47.104.20.179:61616
+    user: admin
+    password: admin
+    in-memory: false
+    queue-name: active.queue
+    topic-name: active.topic.name.model
+  jpa:
+    show-sql: off
+    hibernate:
+      ddl-auto: create
+    open-in-view: true
+mybatis-plus:
+  global-config:
+    db-config:
+      id-type: auto
+#      table-prefix: yc_
+#  mapper-locations: classpath:/mapper/*/*.xml
+logging:
+  level:
+    com.zm: debug
+    org.springframework: info
+sftp:
+  protocol: sftp
+  host: 47.104.20.179
+  port: 22
+  username: sftpuser
+  password: 12345678
+  root: /data/sftp/upload/
+  sessionStrictHostKeyChecking: no
+  sessionConnectTimeout: 15000
+  channelConnectedTimeout: 15000
+  privateKey:
+  passphrase:

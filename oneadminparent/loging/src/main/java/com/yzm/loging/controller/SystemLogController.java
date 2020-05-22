@@ -42,7 +42,6 @@ public class SystemLogController {
         wrapper.orderByDesc("create_time");
         Page<SystemLog> systemLogPage = logService.page(page, wrapper);
         return PageVO.build(systemLogPage.getTotal(), systemLogPage.getRecords());
-
     }
 
     @PostMapping("/delete")
@@ -52,6 +51,5 @@ public class SystemLogController {
             return ResultVO.ok();
         }
         return ResultVO.error();
-
     }
 }

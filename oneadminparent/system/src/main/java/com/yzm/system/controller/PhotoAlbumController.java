@@ -42,6 +42,7 @@ public class PhotoAlbumController {
 
 
     @GetMapping("/list")
+    @LogAnnotation(moduleName = MODULE_NAME, methodName = "查看")
     public PageVO list(BaseQuery query) {
         Page<PhotoAlbum> page = new Page<>(query.getCurrent(), query.getSize());
         Page<PhotoAlbum> avatarPage = photoAlbumService.page(page);
@@ -49,6 +50,7 @@ public class PhotoAlbumController {
     }
 
     @PostMapping("/save")
+    @LogAnnotation(moduleName = MODULE_NAME, methodName = "上传")
     public ResultVO save(@RequestBody PhotoAlbum photoAlbum){
         boolean save = photoAlbumService.save(photoAlbum);
         if(save){
@@ -58,6 +60,7 @@ public class PhotoAlbumController {
     }
 
     @DeleteMapping("/{id}")
+    @LogAnnotation(moduleName = MODULE_NAME, methodName = "删除")
     public ResultVO delete(@PathVariable Long id){
         boolean b = photoAlbumService.removeById(id);
         if(b){

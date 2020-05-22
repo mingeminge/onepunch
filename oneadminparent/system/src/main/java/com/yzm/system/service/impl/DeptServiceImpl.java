@@ -29,9 +29,9 @@ import java.util.stream.Collectors;
 @Service
 public class DeptServiceImpl extends ServiceImpl<DeptMapper, Dept> implements DeptService {
 
-    private DeptMapper deptMapper;
+    private final DeptMapper deptMapper;
 
-    private RoleDeptMapper roleDeptMapper;
+    private final RoleDeptMapper roleDeptMapper;
 
 
     @Autowired
