@@ -4,6 +4,7 @@ import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import com.zm.log.entity.SysLoginLog;
 import com.zm.log.mapper.SysLoginLogMapper;
 import com.zm.log.service.ISysLoginLogService;
+import org.springframework.jms.annotation.JmsListener;
 import org.springframework.stereotype.Service;
 
 /**

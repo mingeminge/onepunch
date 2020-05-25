@@ -44,21 +44,21 @@ public class ZmAuthProvider implements AuthenticationProvider {
         String password = (String) authentication.getCredentials();
         String pwd = Base64Util.getFromBase64(password);
 
-        UserDetails userInfo = userDetailsService.loadUserByUsername(username);
-        if (userInfo == null) {
+        UserDetails userDetails = userDetailsService.loadUserByUsername(username);
+        if (userDetails == null) {
             throw new UsernameNotFoundException(ResultEnum.UNKNOWN_ACCOUNT.getMessage());
         }
-        /*if (!pwd.equals(userInfo.getPassword())) {
+        if (!pwd.equals(userDetails.getPassword())) {
             throw new BadCredentialsException(ResultEnum.INCORRECT_CREDENTIALS.getMessage());
-        }*/
-
-        if (!new BCryptPasswordEncoder().matches(pwd, userInfo.getPassword())) {
-            log.error("用户{},登录失败，原因：密码不正确", username);
-            throw new BadCredentialsException("密码错误");
         }
 
-        Collection<? extends GrantedAuthority> authorities = userInfo.getAuthorities();
-        return new UsernamePasswordAuthenticationToken(userInfo, password, authorities);
+        /*if (!new BCryptPasswordEncoder().matches(pwd, userDetails.getPassword())) {
+            log.error("用户{},登录失败，原因：密码不正确", username);
+            throw new BadCredentialsException("密码错误");
+        }*/
+
+        Collection<? extends GrantedAuthority> authorities = userDetails.getAuthorities();
+        return new UsernamePasswordAuthenticationToken(userDetails, password, authorities);
     }
 
     @Override

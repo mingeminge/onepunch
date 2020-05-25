@@ -1,7 +1,6 @@
 package com.zm.system.config;
 
 import com.zm.common.utils.RedisUtil;
-import com.zm.log.service.ISysLoginLogService;
 import com.zm.system.filter.ZmLoginFormFilter;
 import com.zm.system.filter.ZmTokenFilter;
 import com.zm.system.handler.ZmLogoutHandler;
@@ -10,6 +9,7 @@ import com.zm.system.service.UserDetailsServiceImpl;
 import lombok.AllArgsConstructor;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
+import org.springframework.jms.core.JmsMessagingTemplate;
 import org.springframework.security.config.annotation.authentication.builders.AuthenticationManagerBuilder;
 import org.springframework.security.config.annotation.method.configuration.EnableGlobalMethodSecurity;
 import org.springframework.security.config.annotation.web.builders.HttpSecurity;
@@ -23,6 +23,8 @@ import org.springframework.security.web.authentication.UsernamePasswordAuthentic
 import org.springframework.web.cors.CorsConfiguration;
 import org.springframework.web.cors.CorsConfigurationSource;
 import org.springframework.web.cors.UrlBasedCorsConfigurationSource;
+
+import javax.jms.Topic;
 
 /**
  * ==========================
@@ -41,7 +43,8 @@ public class ZmSecurityConfig extends WebSecurityConfigurerAdapter {
     private final UserDetailsServiceImpl userDetailsService;
     private final ZmAuthProvider authProvider;
     private final RedisUtil redisUtil;
-    private final ISysLoginLogService loginLogService;
+    private final Topic topic;
+    private final JmsMessagingTemplate jmsMessagingTemplate;
 
 
     @Override
@@ -59,20 +62,17 @@ public class ZmSecurityConfig extends WebSecurityConfigurerAdapter {
 
     @Bean
     public DefaultWebSecurityExpressionHandler myWebSecurityExpressionHandler() {
-        DefaultWebSecurityExpressionHandler handler = new DefaultWebSecurityExpressionHandler();
-        return handler;
+        return new DefaultWebSecurityExpressionHandler();
     }
 
     @Bean
     public ZmLogoutHandler logoutSuccessHandler() {
-        ZmLogoutHandler logoutHandler = new ZmLogoutHandler();
-        logoutHandler.setRedisUtil(redisUtil);
-        return logoutHandler;
+        return new ZmLogoutHandler();
     }
 
     @Override
     protected void configure(HttpSecurity http) throws Exception {
-        http.authorizeRequests().antMatchers("/druid/**", "/login", "/logout", "/notLogin").permitAll();
+        http.authorizeRequests().antMatchers("/login", "/logout", "/notLogin").permitAll();
         http.authorizeRequests().anyRequest().authenticated()
                 .and()
                 .formLogin()
@@ -89,20 +89,13 @@ public class ZmSecurityConfig extends WebSecurityConfigurerAdapter {
                 .and()
                 .csrf().disable()
                 .addFilter(new ZmTokenFilter(authenticationManager(), redisUtil))
-                .addFilterAt(new ZmLoginFormFilter(authenticationManagerBean(), redisUtil, loginLogService), UsernamePasswordAuthenticationFilter.class);
+                .addFilterAt(new ZmLoginFormFilter(authenticationManagerBean(), jmsMessagingTemplate, topic), UsernamePasswordAuthenticationFilter.class);
         http.headers().frameOptions().sameOrigin();
     }
 
     @Override
     public void configure(WebSecurity web) throws Exception {
-        web.ignoring().antMatchers("/druid/**");
-        web.ignoring().antMatchers("/**/export");
-        web.ignoring().antMatchers("/env");
-        web.ignoring().antMatchers("/metrics");
-        web.ignoring().antMatchers("/chat/**");
-        web.ignoring().antMatchers("/monitor/**");
         web.ignoring().antMatchers("/setting/bg");
         super.configure(web);
     }
-
 }

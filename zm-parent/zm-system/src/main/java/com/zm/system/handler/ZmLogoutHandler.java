@@ -7,6 +7,7 @@ import com.zm.common.utils.JsonUtil;
 import com.zm.common.utils.RedisUtil;
 import lombok.Setter;
 import lombok.extern.slf4j.Slf4j;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.Authentication;
 import org.springframework.security.web.authentication.logout.LogoutSuccessHandler;
 
@@ -25,7 +26,7 @@ import java.io.IOException;
 @Slf4j
 public class ZmLogoutHandler implements LogoutSuccessHandler {
 
-    @Setter
+    @Autowired
     private RedisUtil redisUtil;
 
     @Override

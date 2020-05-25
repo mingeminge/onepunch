@@ -27,20 +27,16 @@ public class SysLoginLog implements Serializable {
 
     private String username;
 
-    private String ipAddress;
+    private String ip;
 
     @TableField("system_name")
     private String systemName;
 
     private String browser;
 
-    private String country;
+    private String address;
 
-    private String province;
-
-    private String city;
-
-    private String operators;
+    private String isp;
 
     @TableField("login_date")
     private Date loginDate;

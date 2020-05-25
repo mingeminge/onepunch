@@ -2,7 +2,7 @@ server:
   port: 8081
 spring:
   datasource:
-    url: jdbc:mysql://localhost:3306/zm-one?allowMultiQueries=true&useUnicode=true&serverTimezone=Asia/Shanghai&useSSL=false
+    url: jdbc:mysql://47.104.20.179:3306/zm-one?allowMultiQueries=true&useUnicode=true&serverTimezone=Asia/Shanghai&useSSL=false
     username: root
     password: 123456
     driver-class-name: com.mysql.cj.jdbc.Driver
@@ -11,8 +11,8 @@ spring:
     default-property-inclusion: non_null
   redis:
     port: 6379
-    host: 127.0.0.1
-    password:
+    host: 47.104.20.179
+    password: 135790
     database: 0
     jedis:
       pool:
@@ -25,7 +25,8 @@ spring:
     user: admin
     password: admin
     in-memory: false
-    login-log: login_log
+    queue-name: active.queue
+    topic-name: active.topic.name.model
   jpa:
     show-sql: off
     hibernate:

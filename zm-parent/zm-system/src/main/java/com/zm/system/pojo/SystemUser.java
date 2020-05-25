@@ -8,6 +8,7 @@ import org.springframework.data.annotation.Transient;
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;
 
+import java.io.Serializable;
 import java.util.Collection;
 import java.util.List;
 
@@ -20,7 +21,9 @@ import java.util.List;
  **/
 @Data
 @EqualsAndHashCode(callSuper = false)
-public class SystemUser extends User implements UserDetails {
+public class SystemUser extends User implements UserDetails, Serializable {
+
+    private static final long serialVersionUID = -4598759303940333991L;
 
     private Boolean rememberMe;
 
@@ -50,7 +53,7 @@ public class SystemUser extends User implements UserDetails {
 
     @Override
     public String getPassword() {
-        return null;
+        return super.getPassword();
     }
 
     @Override

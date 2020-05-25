@@ -5,7 +5,7 @@ import com.zm.common.enums.ResultEnum;
 import com.zm.common.result.R;
 import com.zm.common.utils.JsonUtil;
 import com.zm.common.utils.RedisUtil;
-import com.zm.system.pojo.SystemUser;
+import com.zm.system.pojo.UserInfo;
 import org.springframework.security.authentication.AuthenticationManager;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
 import org.springframework.security.core.GrantedAuthority;
@@ -56,12 +56,12 @@ public class ZmTokenFilter extends BasicAuthenticationFilter {
         if (redisUtil.hasKey(token) && token.startsWith(TokenConstant.TOKEN_PREFIX)) {
 
             String userJon = redisUtil.get(token);
-            SystemUser user = JsonUtil.jsonToPojo(userJon, SystemUser.class);
+            UserInfo user = JsonUtil.jsonToPojo(userJon, UserInfo.class);
             ArrayList<GrantedAuthority> authorities = new ArrayList<>();
             UsernamePasswordAuthenticationToken authenticationToken = null;
-            if (null != user && user.getAuthorities() != null) {
-                user.getAuthorities().forEach(authority -> {
-                    authorities.add(new SimpleGrantedAuthority(authority.getAuthority()));
+            if (null != user && user.getPermissions() != null) {
+                user.getPermissions().forEach(authority -> {
+                    authorities.add(new SimpleGrantedAuthority(authority));
                 });
 
                 authenticationToken = new UsernamePasswordAuthenticationToken(user.getUsername(), null, authorities);
