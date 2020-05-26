@@ -3,7 +3,6 @@ package com.zm.admin.entity;
 import com.baomidou.mybatisplus.annotation.IdType;
 import com.baomidou.mybatisplus.annotation.TableField;
 import com.baomidou.mybatisplus.annotation.TableId;
-import com.baomidou.mybatisplus.annotation.TableName;
 import lombok.Data;
 
 import java.io.Serializable;
@@ -16,7 +15,6 @@ import java.io.Serializable;
  * ===========================
  */
 @Data
-@TableName("zm_user_role")
 public class UserRole implements Serializable {
 
     private static final long serialVersionUID = 8083257606143826939L;
@@ -25,8 +23,8 @@ public class UserRole implements Serializable {
     private Integer id;
 
     @TableField(value = "user_id")
-    private Long userId;
+    private Integer userId;
 
     @TableField(value = "role_id")
-    private Long roleId;
+    private Integer roleId;
 }

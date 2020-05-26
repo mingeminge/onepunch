@@ -5,6 +5,7 @@ import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
 import com.baomidou.mybatisplus.extension.service.IService;
 import com.zm.admin.dto.UserDTO;
 import com.zm.admin.entity.User;
+import com.zm.admin.vo.ResetPasswordVO;
 import com.zm.admin.vo.UserVO;
 
 /**
@@ -36,10 +37,10 @@ public interface IUserService extends IService<User> {
     /**
      * 查询单条
      *
-     * @param username 用户名
+     * @param id 用户id
      * @return
      */
-    UserVO getOne(String username);
+    UserVO findById(Integer id);
 
     /**
      * 修改
@@ -47,7 +48,15 @@ public interface IUserService extends IService<User> {
      * @param userVO 用户信息
      * @return
      */
-    Boolean updateByUsername(UserVO userVO);
+    Boolean updateById(UserVO userVO);
+
+    /**
+     * 设置角色
+     *
+     * @param userVO 用户角色信息
+     * @return
+     */
+    Boolean setRole(UserVO userVO);
 
     /**
      * 注册用户
@@ -60,8 +69,16 @@ public interface IUserService extends IService<User> {
     /**
      * 删除用户
      *
-     * @param userVO 用户
+     * @param id 用户id
      * @return
      */
-    Boolean deleteUser(UserVO userVO);
+    Boolean deleteUser(Integer id);
+
+    /**
+     * 修改密码
+     *
+     * @param resetPasswordVO 原始密码 新密码
+     * @return
+     */
+    Boolean resetPassword(ResetPasswordVO resetPasswordVO);
 }

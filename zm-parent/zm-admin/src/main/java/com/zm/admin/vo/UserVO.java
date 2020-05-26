@@ -2,9 +2,10 @@ package com.zm.admin.vo;
 
 import com.fasterxml.jackson.annotation.JsonFormat;
 import lombok.Data;
-import lombok.EqualsAndHashCode;
 
+import java.io.Serializable;
 import java.time.LocalDateTime;
+import java.util.List;
 
 /**
  * ==========================
@@ -14,8 +15,9 @@ import java.time.LocalDateTime;
  * ==========================
  **/
 @Data
-@EqualsAndHashCode(callSuper = false)
-public class UserVO {
+public class UserVO implements Serializable {
+
+    private static final long serialVersionUID = 1947256248396104520L;
 
     private Integer id;
 
@@ -40,4 +42,6 @@ public class UserVO {
 
     @JsonFormat(pattern = "yyyy-MM-dd HH:mm:ss")
     private LocalDateTime updateTime;
+
+    private List<Integer> roles;
 }

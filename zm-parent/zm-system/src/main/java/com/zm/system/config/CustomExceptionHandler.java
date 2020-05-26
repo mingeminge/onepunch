@@ -1,9 +1,9 @@
 package com.zm.system.config;
 
 import com.zm.common.enums.ResultEnum;
+import com.zm.common.exception.ZmException;
 import com.zm.common.result.R;
 import lombok.extern.slf4j.Slf4j;
-import org.springframework.security.access.AccessDeniedException;
 import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.bind.annotation.RestControllerAdvice;
 
@@ -18,16 +18,16 @@ import org.springframework.web.bind.annotation.RestControllerAdvice;
 @Slf4j
 public class CustomExceptionHandler {
 
-    @ExceptionHandler(Exception.class)
-    public R exceptionHandle(Exception e) {
-        e.printStackTrace();
-        return R.error(ResultEnum.SYSTEM_ERROR);
+    @ExceptionHandler(ZmException.class)
+    public R exceptionHandle(ZmException e) {
+        log.error("异常:{}", e.getMessage());
+        return R.error(e.getCode(), e.getMessage());
     }
 
-    @ExceptionHandler(AccessDeniedException.class)
-    public R s(AccessDeniedException e) {
-        e.printStackTrace();
-        return R.error(ResultEnum.PERMISSION_DENIED);
+    @ExceptionHandler(Exception.class)
+    public R s(Exception e) {
+        log.error("异常:{}", e.getMessage());
+        return R.error(ResultEnum.SYSTEM_ERROR);
     }
 
 }

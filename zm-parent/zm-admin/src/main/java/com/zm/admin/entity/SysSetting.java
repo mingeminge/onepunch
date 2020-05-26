@@ -12,34 +12,27 @@ import java.time.LocalDateTime;
  * ==========================
  *
  * @author yizuomin
- * @date 2020/5/22 11:28
+ * @date 2020/5/26 10:58
  * ==========================
  **/
 @Data
-public class Dept implements Serializable {
+public class SysSetting implements Serializable {
 
-    private static final long serialVersionUID = 3526733724082405627L;
+    private static final long serialVersionUID = 9194423857193719976L;
 
     @TableId(type = IdType.AUTO)
     private Integer id;
 
-    private String name;
+    private Integer type;
 
-    private String manager;
+    @TableField("bg_url")
+    private String bgUrl;
 
-    private String phone;
+    @TableField("jump_time")
+    private Long jumpTime;
 
-    private String email;
-
-    @TableField("parent_id")
-    private Long parentId;
-
-    @TableField("order_num")
-    private Integer orderNum;
+    private Boolean status;
 
     @TableField("create_time")
     private LocalDateTime createTime;
-
-    @TableField("update_time")
-    private LocalDateTime updateTime;
 }

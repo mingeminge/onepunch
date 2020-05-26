@@ -2,28 +2,107 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4b8cda61-8e7c-4adb-866c-a21390d82202" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/zm-admin/src/main/java/com/zm/admin/controller/UserController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zm-admin/target/classes/com/zm/admin/service/impl/UserServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zm-system/src/main/java/com/zm/system/config/MpConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zm-system/src/main/java/com/zm/system/config/MqConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zm-system/src/main/java/com/zm/system/consumer/LoginLogConsumer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zm-system/src/main/java/com/zm/system/pojo/UserInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zm-system/src/main/resources/application-prod.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zm-system/src/main/resources/banner.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zm-system/target/classes/banner.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zm-admin/src/main/java/com/zm/admin/controller/DeptController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zm-admin/src/main/java/com/zm/admin/controller/MenuController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zm-admin/src/main/java/com/zm/admin/controller/RoleController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zm-admin/src/main/java/com/zm/admin/controller/SysSettingController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zm-admin/src/main/java/com/zm/admin/entity/SysSetting.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zm-admin/src/main/java/com/zm/admin/mapper/SysSettingMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zm-admin/src/main/java/com/zm/admin/service/ISysSettingService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zm-admin/src/main/java/com/zm/admin/service/impl/SysSettingServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zm-admin/src/main/java/com/zm/admin/vo/ResetPasswordVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zm-common/src/main/java/com/zm/common/contant/FileConstant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zm-common/src/main/java/com/zm/common/contant/MethodConstant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zm-common/src/main/java/com/zm/common/contant/ModuleConstant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zm-common/src/main/java/com/zm/common/contant/UserConstant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zm-mall/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zm-mall/src/main/java/com/zm/mall/entity/Order.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zm-mall/src/main/java/com/zm/mall/entity/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zm-system/src/main/java/com/zm/system/controller/SysController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../zm-ui/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../zm-ui/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../zm-ui/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../zm-ui/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../zm-ui/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../zm-ui/babel.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../zm-ui/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../zm-ui/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../zm-ui/public/css/animate.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../zm-ui/public/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../zm-ui/public/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../zm-ui/src/App.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../zm-ui/src/api/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../zm-ui/src/components/Breadcrumb/index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../zm-ui/src/components/Hamburger/index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../zm-ui/src/components/ScrollPane/index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../zm-ui/src/components/SvgIcon/index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../zm-ui/src/icons/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../zm-ui/src/icons/svg/dashboard.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../zm-ui/src/icons/svgo.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../zm-ui/src/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../zm-ui/src/router/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../zm-ui/src/store/getter.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../zm-ui/src/store/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../zm-ui/src/store/modules/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../zm-ui/src/store/modules/permission.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../zm-ui/src/store/modules/settings.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../zm-ui/src/store/modules/tagsView.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../zm-ui/src/styles/element-ui.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../zm-ui/src/styles/gloable.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../zm-ui/src/styles/index.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../zm-ui/src/styles/mixin.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../zm-ui/src/styles/sidebar.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../zm-ui/src/styles/transition.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../zm-ui/src/styles/variables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../zm-ui/src/utils/permission.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../zm-ui/src/utils/request.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../zm-ui/src/utils/settings.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../zm-ui/src/utils/validate.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../zm-ui/src/views/index/index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../zm-ui/src/views/layout/components/AppMain.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../zm-ui/src/views/layout/components/Navbar.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../zm-ui/src/views/layout/components/Sidebar/FixiOSBug.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../zm-ui/src/views/layout/components/Sidebar/Item.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../zm-ui/src/views/layout/components/Sidebar/Link.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../zm-ui/src/views/layout/components/Sidebar/Logo.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../zm-ui/src/views/layout/components/Sidebar/SidebarItem.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../zm-ui/src/views/layout/components/Sidebar/index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../zm-ui/src/views/layout/components/TagsView.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../zm-ui/src/views/layout/components/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../zm-ui/src/views/layout/index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../zm-ui/src/views/layout/mixin/ResizeHandler.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../zm-ui/src/views/login/index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../zm-ui/zm-ui.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../oneadminparent/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../oneadminparent/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../oneadminparent/common/target/classes/com/yzm/common/util/RedisUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/../oneadminparent/common/target/classes/com/yzm/common/util/RedisUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../oneadminparent/system/src/main/java/com/yzm/system/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../oneadminparent/system/src/main/java/com/yzm/system/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../oneadminparent/system/target/classes/com/yzm/system/service/impl/UserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/../oneadminparent/system/target/classes/com/yzm/system/service/impl/UserServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zm-admin/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/zm-admin/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zm-admin/src/main/java/com/zm/admin/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/zm-admin/src/main/java/com/zm/admin/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zm-admin/src/main/java/com/zm/admin/entity/Dept.java" beforeDir="false" afterPath="$PROJECT_DIR$/zm-admin/src/main/java/com/zm/admin/entity/Dept.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zm-admin/src/main/java/com/zm/admin/entity/Menu.java" beforeDir="false" afterPath="$PROJECT_DIR$/zm-admin/src/main/java/com/zm/admin/entity/Menu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zm-admin/src/main/java/com/zm/admin/entity/Role.java" beforeDir="false" afterPath="$PROJECT_DIR$/zm-admin/src/main/java/com/zm/admin/entity/Role.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zm-admin/src/main/java/com/zm/admin/entity/RoleDept.java" beforeDir="false" afterPath="$PROJECT_DIR$/zm-admin/src/main/java/com/zm/admin/entity/RoleDept.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zm-admin/src/main/java/com/zm/admin/entity/RoleMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/zm-admin/src/main/java/com/zm/admin/entity/RoleMenu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zm-admin/src/main/java/com/zm/admin/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/zm-admin/src/main/java/com/zm/admin/entity/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zm-admin/src/main/java/com/zm/admin/entity/UserRole.java" beforeDir="false" afterPath="$PROJECT_DIR$/zm-admin/src/main/java/com/zm/admin/entity/UserRole.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zm-admin/src/main/java/com/zm/admin/service/IRoleService.java" beforeDir="false" afterPath="$PROJECT_DIR$/zm-admin/src/main/java/com/zm/admin/service/IRoleService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/zm-admin/src/main/java/com/zm/admin/service/IUserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/zm-admin/src/main/java/com/zm/admin/service/IUserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zm-admin/src/main/java/com/zm/admin/service/impl/RoleServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/zm-admin/src/main/java/com/zm/admin/service/impl/RoleServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/zm-admin/src/main/java/com/zm/admin/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/zm-admin/src/main/java/com/zm/admin/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zm-admin/src/main/java/com/zm/admin/vo/RoleVO.java" beforeDir="false" afterPath="$PROJECT_DIR$/zm-admin/src/main/java/com/zm/admin/vo/RoleVO.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/zm-admin/src/main/java/com/zm/admin/vo/UserVO.java" beforeDir="false" afterPath="$PROJECT_DIR$/zm-admin/src/main/java/com/zm/admin/vo/UserVO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zm-common/src/main/java/com/zm/common/query/BaseQuery.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zm-log/src/main/java/com/zm/log/entity/SysLoginLog.java" beforeDir="false" afterPath="$PROJECT_DIR$/zm-log/src/main/java/com/zm/log/entity/SysLoginLog.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zm-log/src/main/java/com/zm/log/service/impl/SysLoginLogServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/zm-log/src/main/java/com/zm/log/service/impl/SysLoginLogServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zm-admin/target/classes/com/zm/admin/service/impl/UserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/zm-admin/target/classes/com/zm/admin/service/impl/UserServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zm-common/src/main/java/com/zm/common/enums/ResultEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/zm-common/src/main/java/com/zm/common/enums/ResultEnum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zm-common/src/main/java/com/zm/common/enums/UserStatusEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/zm-common/src/main/java/com/zm/common/enums/UserStatusEnum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zm-common/src/main/java/com/zm/common/exception/ZmException.java" beforeDir="false" afterPath="$PROJECT_DIR$/zm-common/src/main/java/com/zm/common/exception/ZmException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zm-common/src/main/java/com/zm/common/result/R.java" beforeDir="false" afterPath="$PROJECT_DIR$/zm-common/src/main/java/com/zm/common/result/R.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zm-system/src/main/java/com/zm/system/config/CustomExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/zm-system/src/main/java/com/zm/system/config/CustomExceptionHandler.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/zm-system/src/main/java/com/zm/system/config/ZmSecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/zm-system/src/main/java/com/zm/system/config/ZmSecurityConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zm-system/src/main/java/com/zm/system/filter/ZmLoginFormFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/zm-system/src/main/java/com/zm/system/filter/ZmLoginFormFilter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zm-system/src/main/java/com/zm/system/filter/ZmTokenFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/zm-system/src/main/java/com/zm/system/filter/ZmTokenFilter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zm-system/src/main/java/com/zm/system/handler/ZmLogoutHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/zm-system/src/main/java/com/zm/system/handler/ZmLogoutHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zm-system/src/main/java/com/zm/system/pojo/SystemUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/zm-system/src/main/java/com/zm/system/pojo/SystemUser.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/zm-system/src/main/java/com/zm/system/provider/ZmAuthProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/zm-system/src/main/java/com/zm/system/provider/ZmAuthProvider.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/zm-system/src/main/java/com/zm/system/service/UserDetailsServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/zm-system/src/main/java/com/zm/system/service/UserDetailsServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/zm-system/src/main/resources/application-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/zm-system/src/main/resources/application-dev.yml" afterDir="false" />
@@ -65,7 +144,8 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last.edited.regexp" value="Sample Text" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/zm-system/src/main/resources" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -123,6 +203,8 @@
       <workItem from="1590118792668" duration="12479000" />
       <workItem from="1590138393341" duration="1697000" />
       <workItem from="1590369693489" duration="12260000" />
+      <workItem from="1590387586085" duration="8261000" />
+      <workItem from="1590458557878" duration="12690000" />
     </task>
     <task id="LOCAL-00001" summary="代码提交">
       <created>1590141155285</created>
@@ -131,7 +213,14 @@
       <option name="project" value="LOCAL" />
       <updated>1590141155285</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="代码提交">
+      <created>1590387796859</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1590387796860</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -151,90 +240,94 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="184" y="112" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.900@0.0.1440.900" timestamp="1590135549863" />
-    <state x="533" y="160" key="#com.intellij.ide.util.MemberChooser" timestamp="1590386590554">
+    <state x="533" y="160" key="#com.intellij.ide.util.MemberChooser" timestamp="1590460160185">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="533" y="160" key="#com.intellij.ide.util.MemberChooser/0.0.1440.900@0.0.1440.900" timestamp="1590386590554" />
-    <state x="231" y="0" key="CommitChangelistDialog2" timestamp="1590141153396">
+    <state x="533" y="160" key="#com.intellij.ide.util.MemberChooser/0.0.1440.900@0.0.1440.900" timestamp="1590460160185" />
+    <state x="231" y="0" key="CommitChangelistDialog2" timestamp="1590387796285">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="231" y="0" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1590141153396" />
-    <state width="840" height="699" key="DebuggerActiveHint" timestamp="1590378657867">
+    <state x="231" y="0" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1590387796285" />
+    <state width="840" height="699" key="DebuggerActiveHint" timestamp="1590478148870">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="840" height="699" key="DebuggerActiveHint/0.0.1440.900@0.0.1440.900" timestamp="1590378657867" />
-    <state width="1398" height="298" key="GridCell.Tab.0.bottom" timestamp="1590387515574">
+    <state width="840" height="699" key="DebuggerActiveHint/0.0.1440.900@0.0.1440.900" timestamp="1590478148870" />
+    <state width="1398" height="298" key="GridCell.Tab.0.bottom" timestamp="1590479653959">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="298" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1590387515574" />
-    <state width="1398" height="298" key="GridCell.Tab.0.bottom/0.23.1440.794@0.23.1440.794" timestamp="1590376171780" />
+    <state width="1398" height="298" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1590479653959" />
+    <state width="1398" height="298" key="GridCell.Tab.0.bottom/0.23.1440.794@0.23.1440.794" timestamp="1590462426208" />
     <state width="1398" height="298" key="GridCell.Tab.0.bottom/0.23.1440.801@0.23.1440.801" timestamp="1590141280891" />
-    <state width="1398" height="298" key="GridCell.Tab.0.center" timestamp="1590387515573">
+    <state width="1398" height="298" key="GridCell.Tab.0.center" timestamp="1590479653957">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="298" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1590387515573" />
-    <state width="1398" height="298" key="GridCell.Tab.0.center/0.23.1440.794@0.23.1440.794" timestamp="1590376171778" />
+    <state width="1398" height="298" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1590479653957" />
+    <state width="1398" height="298" key="GridCell.Tab.0.center/0.23.1440.794@0.23.1440.794" timestamp="1590462426206" />
     <state width="1398" height="298" key="GridCell.Tab.0.center/0.23.1440.801@0.23.1440.801" timestamp="1590141280889" />
-    <state width="1398" height="298" key="GridCell.Tab.0.left" timestamp="1590387515572">
+    <state width="1398" height="298" key="GridCell.Tab.0.left" timestamp="1590479653955">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="298" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1590387515572" />
-    <state width="1398" height="298" key="GridCell.Tab.0.left/0.23.1440.794@0.23.1440.794" timestamp="1590376171777" />
+    <state width="1398" height="298" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1590479653955" />
+    <state width="1398" height="298" key="GridCell.Tab.0.left/0.23.1440.794@0.23.1440.794" timestamp="1590462426206" />
     <state width="1398" height="298" key="GridCell.Tab.0.left/0.23.1440.801@0.23.1440.801" timestamp="1590141280888" />
-    <state width="1398" height="298" key="GridCell.Tab.0.right" timestamp="1590387515573">
+    <state width="1398" height="298" key="GridCell.Tab.0.right" timestamp="1590479653958">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="298" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1590387515573" />
-    <state width="1398" height="298" key="GridCell.Tab.0.right/0.23.1440.794@0.23.1440.794" timestamp="1590376171779" />
+    <state width="1398" height="298" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1590479653958" />
+    <state width="1398" height="298" key="GridCell.Tab.0.right/0.23.1440.794@0.23.1440.794" timestamp="1590462426207" />
     <state width="1398" height="298" key="GridCell.Tab.0.right/0.23.1440.801@0.23.1440.801" timestamp="1590141280890" />
-    <state width="1398" height="298" key="GridCell.Tab.1.bottom" timestamp="1590387515576">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state width="1398" height="298" key="GridCell.Tab.1.bottom" timestamp="1590479649020">
+      <screen x="0" y="23" width="1440" height="794" />
     </state>
-    <state width="1398" height="298" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1590387515576" />
-    <state width="1398" height="298" key="GridCell.Tab.1.bottom/0.23.1440.794@0.23.1440.794" timestamp="1590385705791" />
+    <state width="1398" height="298" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1590478878871" />
+    <state width="1398" height="298" key="GridCell.Tab.1.bottom/0.23.1440.794@0.23.1440.794" timestamp="1590479649020" />
     <state width="1398" height="298" key="GridCell.Tab.1.bottom/0.23.1440.801@0.23.1440.801" timestamp="1590141280892" />
-    <state width="1398" height="298" key="GridCell.Tab.1.center" timestamp="1590387515575">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state width="1398" height="298" key="GridCell.Tab.1.center" timestamp="1590479649018">
+      <screen x="0" y="23" width="1440" height="794" />
     </state>
-    <state width="1398" height="298" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1590387515575" />
-    <state width="1398" height="298" key="GridCell.Tab.1.center/0.23.1440.794@0.23.1440.794" timestamp="1590385705789" />
+    <state width="1398" height="298" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1590478878869" />
+    <state width="1398" height="298" key="GridCell.Tab.1.center/0.23.1440.794@0.23.1440.794" timestamp="1590479649018" />
     <state width="1398" height="298" key="GridCell.Tab.1.center/0.23.1440.801@0.23.1440.801" timestamp="1590141280892" />
-    <state width="1398" height="298" key="GridCell.Tab.1.left" timestamp="1590387515574">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state width="1398" height="298" key="GridCell.Tab.1.left" timestamp="1590479649017">
+      <screen x="0" y="23" width="1440" height="794" />
     </state>
-    <state width="1398" height="298" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1590387515574" />
-    <state width="1398" height="298" key="GridCell.Tab.1.left/0.23.1440.794@0.23.1440.794" timestamp="1590385705789" />
+    <state width="1398" height="298" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1590478878868" />
+    <state width="1398" height="298" key="GridCell.Tab.1.left/0.23.1440.794@0.23.1440.794" timestamp="1590479649017" />
     <state width="1398" height="298" key="GridCell.Tab.1.left/0.23.1440.801@0.23.1440.801" timestamp="1590141280891" />
-    <state width="1398" height="298" key="GridCell.Tab.1.right" timestamp="1590387515575">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state width="1398" height="298" key="GridCell.Tab.1.right" timestamp="1590479649019">
+      <screen x="0" y="23" width="1440" height="794" />
     </state>
-    <state width="1398" height="298" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1590387515575" />
-    <state width="1398" height="298" key="GridCell.Tab.1.right/0.23.1440.794@0.23.1440.794" timestamp="1590385705790" />
+    <state width="1398" height="298" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1590478878870" />
+    <state width="1398" height="298" key="GridCell.Tab.1.right/0.23.1440.794@0.23.1440.794" timestamp="1590479649019" />
     <state width="1398" height="298" key="GridCell.Tab.1.right/0.23.1440.801@0.23.1440.801" timestamp="1590141280892" />
-    <state width="1398" height="298" key="GridCell.Tab.2.bottom" timestamp="1590387515578">
+    <state width="1398" height="298" key="GridCell.Tab.2.bottom" timestamp="1590478878874">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="298" key="GridCell.Tab.2.bottom/0.0.1440.900@0.0.1440.900" timestamp="1590387515578" />
-    <state width="1398" height="298" key="GridCell.Tab.2.bottom/0.23.1440.794@0.23.1440.794" timestamp="1590376171656" />
+    <state width="1398" height="298" key="GridCell.Tab.2.bottom/0.0.1440.900@0.0.1440.900" timestamp="1590478878874" />
+    <state width="1398" height="298" key="GridCell.Tab.2.bottom/0.23.1440.794@0.23.1440.794" timestamp="1590394779514" />
     <state width="1398" height="298" key="GridCell.Tab.2.bottom/0.23.1440.801@0.23.1440.801" timestamp="1590141280894" />
-    <state width="1398" height="298" key="GridCell.Tab.2.center" timestamp="1590387515577">
+    <state width="1398" height="298" key="GridCell.Tab.2.center" timestamp="1590478878872">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="298" key="GridCell.Tab.2.center/0.0.1440.900@0.0.1440.900" timestamp="1590387515577" />
-    <state width="1398" height="298" key="GridCell.Tab.2.center/0.23.1440.794@0.23.1440.794" timestamp="1590376171654" />
+    <state width="1398" height="298" key="GridCell.Tab.2.center/0.0.1440.900@0.0.1440.900" timestamp="1590478878872" />
+    <state width="1398" height="298" key="GridCell.Tab.2.center/0.23.1440.794@0.23.1440.794" timestamp="1590394779513" />
     <state width="1398" height="298" key="GridCell.Tab.2.center/0.23.1440.801@0.23.1440.801" timestamp="1590141280893" />
-    <state width="1398" height="298" key="GridCell.Tab.2.left" timestamp="1590387515576">
+    <state width="1398" height="298" key="GridCell.Tab.2.left" timestamp="1590478878871">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="298" key="GridCell.Tab.2.left/0.0.1440.900@0.0.1440.900" timestamp="1590387515576" />
-    <state width="1398" height="298" key="GridCell.Tab.2.left/0.23.1440.794@0.23.1440.794" timestamp="1590376171654" />
+    <state width="1398" height="298" key="GridCell.Tab.2.left/0.0.1440.900@0.0.1440.900" timestamp="1590478878871" />
+    <state width="1398" height="298" key="GridCell.Tab.2.left/0.23.1440.794@0.23.1440.794" timestamp="1590394779512" />
     <state width="1398" height="298" key="GridCell.Tab.2.left/0.23.1440.801@0.23.1440.801" timestamp="1590141280893" />
-    <state width="1398" height="298" key="GridCell.Tab.2.right" timestamp="1590387515577">
+    <state width="1398" height="298" key="GridCell.Tab.2.right" timestamp="1590478878873">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="298" key="GridCell.Tab.2.right/0.0.1440.900@0.0.1440.900" timestamp="1590387515577" />
-    <state width="1398" height="298" key="GridCell.Tab.2.right/0.23.1440.794@0.23.1440.794" timestamp="1590376171655" />
+    <state width="1398" height="298" key="GridCell.Tab.2.right/0.0.1440.900@0.0.1440.900" timestamp="1590478878873" />
+    <state width="1398" height="298" key="GridCell.Tab.2.right/0.23.1440.794@0.23.1440.794" timestamp="1590394779513" />
     <state width="1398" height="298" key="GridCell.Tab.2.right/0.23.1440.801@0.23.1440.801" timestamp="1590141280893" />
+    <state x="308" y="192" key="IDE.errors.dialog" timestamp="1590464097820">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="308" y="192" key="IDE.errors.dialog/0.0.1440.900@0.0.1440.900" timestamp="1590464097820" />
     <state x="258" y="112" key="Maven.ArtifactSearchDialog" timestamp="1590131862560">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -243,10 +336,10 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="208" y="31" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1590131836662" />
-    <state x="320" y="186" key="Vcs.Push.Dialog.v2" timestamp="1590141158448">
+    <state x="320" y="186" key="Vcs.Push.Dialog.v2" timestamp="1590387798828">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="320" y="186" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1590141158448" />
+    <state x="320" y="186" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1590387798828" />
     <state x="458" y="140" key="extract.method.dialog" timestamp="1590132009845">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -255,14 +348,18 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state width="600" height="440" key="javadoc.popup/0.0.1440.900@0.0.1440.900" timestamp="1590378792446" />
-    <state x="176" y="27" key="new project wizard" timestamp="1590130474369">
+    <state x="176" y="27" key="new project wizard" timestamp="1590471349748">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="176" y="27" key="new project wizard/0.0.1440.900@0.0.1440.900" timestamp="1590130474369" />
-    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1590372428469">
+    <state x="176" y="27" key="new project wizard/0.0.1440.900@0.0.1440.900" timestamp="1590471349748" />
+    <state x="385" y="210" key="run.anything.popup" timestamp="1590459602024">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1590372428469" />
+    <state x="385" y="210" key="run.anything.popup/0.0.1440.900@0.0.1440.900" timestamp="1590459602024" />
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1590389424458">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1590389424458" />
     <state x="272" y="57" key="spring file set editor" timestamp="1590135469216">
       <screen x="0" y="0" width="1440" height="900" />
     </state>

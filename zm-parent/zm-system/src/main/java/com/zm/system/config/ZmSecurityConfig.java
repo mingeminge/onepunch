@@ -72,7 +72,7 @@ public class ZmSecurityConfig extends WebSecurityConfigurerAdapter {
 
     @Override
     protected void configure(HttpSecurity http) throws Exception {
-        http.authorizeRequests().antMatchers("/login", "/logout", "/notLogin").permitAll();
+        http.authorizeRequests().antMatchers("/login", "/logout", "/notLogin","/setting/getSetting","/user/register").permitAll();
         http.authorizeRequests().anyRequest().authenticated()
                 .and()
                 .formLogin()
@@ -95,7 +95,8 @@ public class ZmSecurityConfig extends WebSecurityConfigurerAdapter {
 
     @Override
     public void configure(WebSecurity web) throws Exception {
-        web.ignoring().antMatchers("/setting/bg");
+        web.ignoring().antMatchers("/setting/getSetting");
+        web.ignoring().antMatchers("/user/register");
         super.configure(web);
     }
 }

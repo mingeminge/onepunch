@@ -9,18 +9,7 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>zm-admin</artifactId>
+    <artifactId>zm-mall</artifactId>
 
-    <dependencies>
-        <dependency>
-            <groupId>com.zm</groupId>
-            <artifactId>zm-common</artifactId>
-            <version>1.0-SNAPSHOT</version>
-        </dependency>
-        <dependency>
-            <groupId>com.zm</groupId>
-            <artifactId>zm-log</artifactId>
-            <version>1.0-SNAPSHOT</version>
-        </dependency>
-    </dependencies>
+
 </project>

@@ -46,16 +46,16 @@ public class ZmAuthProvider implements AuthenticationProvider {
 
         UserDetails userDetails = userDetailsService.loadUserByUsername(username);
         if (userDetails == null) {
-            throw new UsernameNotFoundException(ResultEnum.UNKNOWN_ACCOUNT.getMessage());
+            throw new UsernameNotFoundException(ResultEnum.USER_NOT_FOUND.getMessage());
         }
-        if (!pwd.equals(userDetails.getPassword())) {
+       /* if (!pwd.equals(userDetails.getPassword())) {
             throw new BadCredentialsException(ResultEnum.INCORRECT_CREDENTIALS.getMessage());
-        }
+        }*/
 
-        /*if (!new BCryptPasswordEncoder().matches(pwd, userDetails.getPassword())) {
+        if (!new BCryptPasswordEncoder().matches(pwd, userDetails.getPassword())) {
             log.error("用户{},登录失败，原因：密码不正确", username);
             throw new BadCredentialsException("密码错误");
-        }*/
+        }
 
         Collection<? extends GrantedAuthority> authorities = userDetails.getAuthorities();
         return new UsernamePasswordAuthenticationToken(userDetails, password, authorities);

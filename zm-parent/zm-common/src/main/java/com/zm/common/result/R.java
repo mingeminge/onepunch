@@ -20,47 +20,63 @@ public class R<T> implements Serializable {
 
     private String message;
 
+    private Boolean success;
+
     private T data;
 
     public static <T> R<T> data(T data) {
-        R<T> resultVO = new R<T>();
-        resultVO.setCode(ResultEnum.OK.getCode());
-        resultVO.setMessage(ResultEnum.OK.getMessage());
-        resultVO.setData(data);
-        return resultVO;
+        R<T> r = new R<>();
+        r.setCode(ResultEnum.OK.getCode());
+        r.setMessage(ResultEnum.OK.getMessage());
+        r.setData(data);
+        r.setSuccess(Boolean.TRUE);
+        return r;
     }
 
     public static <T> R<T> ok() {
-        R<T> resultVO = new R<T>();
-        resultVO.setCode(ResultEnum.OK.getCode());
-        resultVO.setMessage(ResultEnum.OK.getMessage());
-        return resultVO;
+        R<T> r = new R<>();
+        r.setCode(ResultEnum.OK.getCode());
+        r.setMessage(ResultEnum.OK.getMessage());
+        r.setSuccess(Boolean.TRUE);
+        return r;
     }
 
     public static <T> R<T> ok(ResultEnum resultEnum) {
-        R<T> resultVO = new R<T>();
-        resultVO.setCode(resultEnum.getCode());
-        resultVO.setMessage(resultEnum.getMessage());
-        return resultVO;
+        R<T> r = new R<>();
+        r.setCode(resultEnum.getCode());
+        r.setMessage(resultEnum.getMessage());
+        r.setSuccess(Boolean.TRUE);
+        return r;
     }
 
     public static <T> R<T> status(@NotNull Boolean status) {
-        R<T> resultVO = new R<T>();
+        R<T> r = new R<>();
         if (status) {
-            resultVO.setCode(ResultEnum.OK.getCode());
-            resultVO.setMessage(ResultEnum.OK.getMessage());
+            r.setCode(ResultEnum.OK.getCode());
+            r.setMessage(ResultEnum.OK.getMessage());
+            r.setSuccess(Boolean.TRUE);
         } else {
-            resultVO.setCode(ResultEnum.FAILED.getCode());
-            resultVO.setMessage(ResultEnum.FAILED.getMessage());
+            r.setCode(ResultEnum.FAILED.getCode());
+            r.setMessage(ResultEnum.FAILED.getMessage());
+            r.setSuccess(Boolean.FALSE);
         }
-        return resultVO;
+        return r;
     }
 
     public static <T> R<T> error(ResultEnum resultEnum) {
-        R<T> resultVO = new R<T>();
-        resultVO.setCode(resultEnum.getCode());
-        resultVO.setMessage(resultEnum.getMessage());
-        return resultVO;
+        R<T> r = new R<>();
+        r.setCode(resultEnum.getCode());
+        r.setMessage(resultEnum.getMessage());
+        r.setSuccess(Boolean.FALSE);
+        return r;
+    }
+
+    public static <T> R<T> error(Integer code, String message) {
+        R<T> r = new R<>();
+        r.setCode(code);
+        r.setMessage(message);
+        r.setSuccess(Boolean.FALSE);
+        return r;
     }
 
 }

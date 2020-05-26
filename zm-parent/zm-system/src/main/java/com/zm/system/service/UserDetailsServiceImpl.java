@@ -37,7 +37,7 @@ public class UserDetailsServiceImpl implements UserDetailsService {
     public SystemUser loadUserByUsername(String username) throws UsernameNotFoundException {
         UserDTO userDTO = userService.findByUsername(username);
         if (null == userDTO) {
-            throw new UsernameNotFoundException(ResultEnum.UNKNOWN_ACCOUNT.getMessage());
+            throw new UsernameNotFoundException(ResultEnum.USER_NOT_FOUND.getMessage());
         }
         SystemUser systemUser = CopyUtil.copyProperties(userDTO, SystemUser.class);
         if (null != userDTO.getRoles()) {

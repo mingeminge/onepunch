@@ -1,41 +1,31 @@
-package com.zm.admin.entity;
+package com.zm.mall.entity;
 
 import com.baomidou.mybatisplus.annotation.IdType;
 import com.baomidou.mybatisplus.annotation.TableField;
 import com.baomidou.mybatisplus.annotation.TableId;
+import com.baomidou.mybatisplus.annotation.TableName;
 import lombok.Data;
 
-import java.io.Serializable;
 import java.time.LocalDateTime;
 
 /**
  * ==========================
  *
  * @author yizuomin
- * @date 2020/5/22 11:28
+ * @date 2020/5/25 14:50
  * ==========================
  **/
 @Data
-public class Dept implements Serializable {
-
-    private static final long serialVersionUID = 3526733724082405627L;
+@TableName("zm_order")
+public class Order {
 
     @TableId(type = IdType.AUTO)
     private Integer id;
 
-    private String name;
+    @TableField("buyer_company_name")
+    private String buyerCompanyName;
 
-    private String manager;
-
-    private String phone;
-
-    private String email;
-
-    @TableField("parent_id")
-    private Long parentId;
-
-    @TableField("order_num")
-    private Integer orderNum;
+    private Integer status;
 
     @TableField("create_time")
     private LocalDateTime createTime;

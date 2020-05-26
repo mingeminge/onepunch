@@ -1,6 +1,9 @@
 package com.zm.admin.entity;
 
-import com.baomidou.mybatisplus.annotation.*;
+import com.baomidou.mybatisplus.annotation.FieldStrategy;
+import com.baomidou.mybatisplus.annotation.IdType;
+import com.baomidou.mybatisplus.annotation.TableField;
+import com.baomidou.mybatisplus.annotation.TableId;
 import lombok.Data;
 
 import java.io.Serializable;
@@ -14,7 +17,6 @@ import java.time.LocalDateTime;
  * ==========================
  **/
 @Data
-@TableName("zm_user")
 public class User implements Serializable {
 
     private static final long serialVersionUID = 31301005595204171L;
@@ -41,6 +43,8 @@ public class User implements Serializable {
     private String signature;
 
     private Long deptId;
+
+    private Integer status;
 
     @TableField("create_time")
     private LocalDateTime createTime;

@@ -1,5 +1,7 @@
 package com.zm.common.enums;
 
+import lombok.Getter;
+
 /**
  * ==========================
  *
@@ -7,6 +9,7 @@ package com.zm.common.enums;
  * @date 2020/5/22 10:49
  * ==========================
  **/
+@Getter
 public enum UserStatusEnum {
     /**
      *
