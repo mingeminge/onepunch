@@ -6,13 +6,11 @@ import router from "@/router";
 import VCharts from 'v-charts'
 import VueParticles from 'vue-particles'
 import '@/styles/index.scss' // global css
-import '@/styles/gloable.css'
  import '@/icons' // icon
 
 import ElementUI from 'element-ui'
 import locale from 'element-ui/lib/locale/lang/en'
 import 'element-ui/lib/theme-chalk/index.css';
-/*import {Loading, MessageBox, Message, Notification} from "element-ui";*/
 Vue.use(VueParticles)
 Vue.use(ElementUI, {locale})
 Vue.use(VCharts)

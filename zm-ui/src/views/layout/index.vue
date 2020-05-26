@@ -6,7 +6,7 @@
             <div class="main-container">
                 <div :class="{'fixed-header':fixedHeader}">
                     <navbar/>
-                    <tags-view></tags-view>
+                   <!-- <tags-view></tags-view>-->
                 </div>
                 <app-main/>
             </div>
@@ -22,7 +22,7 @@
     export default {
         name: 'Layout',
         components: {
-            TagsView,
+           /* TagsView,*/
             Navbar,
             Sidebar,
             AppMain
