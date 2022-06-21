@@ -30,7 +30,7 @@
         <mybatis-plus.version>3.3.0</mybatis-plus.version>
         <jsch.version>0.1.55</jsch.version>
         <fastjson.version>1.2.62</fastjson.version>
-        <mysql.version>8.0.18</mysql.version>
+        <mysql.version>8.0.28</mysql.version>
         <easy-captcha.version>1.6.2</easy-captcha.version>
         <UserAgentUtils.version>1.21</UserAgentUtils.version>
     </properties>
